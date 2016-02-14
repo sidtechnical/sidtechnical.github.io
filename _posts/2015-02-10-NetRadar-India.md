@@ -3,15 +3,16 @@ layout: post
 title: Call for participation -"NetRadar-India project"
 categories:
 - blog
+- projects
 ---
 
-### TL;DR:
+### **TL;DR**:
 **NetRadar-India** is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network 
 infrastructure. To know more about how to participate, please visit our [website](http://netradar-india.github.io/).
 
 ---
 
-### About:
+### **About:**
 Internet connectivity around the world is far from uniform, especially when Internet is emerging as one of the fundamental 
 civil rights in developing nations, just like their so-called developed counterparts. In the case of India, a semi-developed 
 (rather than developing) nation,  the technology penetration is not uniform across the regions where the disparity is evident 
@@ -40,7 +41,7 @@ for emerging digital India through this project.
 
 ---
 
-### How to participate in NetRadar-India project?
+### **How to participate in NetRadar-India project?**
 Participating in this project is as simple as downloading the Netradar App on your mobile phones and following the simple 
 instructions provided here, so that the app can take the relevant measurements. To know more, please visit the 
 [project website](http://netradar-india.github.io/).
@@ -51,7 +52,6 @@ instructions provided here, so that the app can take the relevant measurements. 
 For more queries regarding the user study please check out the [FAQ page](http://netradar-india.github.io/FAQ_index.html) or contact us. 
 
 Thanks and regards,
-
 NetRadar-India research team.
 
 
