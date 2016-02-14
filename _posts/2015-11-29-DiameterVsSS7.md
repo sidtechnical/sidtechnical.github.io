@@ -4,7 +4,7 @@ title: Diameter protocol replacing SS7
 categories: 
   - blog
   - telcosec
-published: false
+published: true
 ---
 
 Newer standards such as 4G are moving towards ‘all IP’ connections and the IP based Diameter protocol [1] based  signaling protocols  by  default  use  IPsec  to  authenticate connections, they have higher chances of providing sufficient security than SS7, which has no such protection. However, there is also the possibility that the IP based attacks from the Internet could be replicated in the telecommunication networks. 
