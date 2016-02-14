@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Call for participation -"NetRadar-India project"
+title: Call for participation -NetRadar-India project
 categories:
 - blog
 - projects
@@ -52,6 +52,7 @@ instructions provided here, so that the app can take the relevant measurements. 
 For more queries regarding the user study please check out the [FAQ page](http://netradar-india.github.io/FAQ_index.html) or contact us. 
 
 Thanks and regards,
+
 NetRadar-India research team.
 
 
