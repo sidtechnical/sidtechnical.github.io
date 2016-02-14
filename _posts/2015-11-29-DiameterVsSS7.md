@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Diameter protocol replacing SS7
-categories:
-- blog
-- telcosec
+categories: 
+  - blog
+  - telcosec
+published: false
 ---
+
 Newer standards such as 4G are moving towards ‘all IP’ connections and the IP based Diameter protocol [1] based  signaling protocols  by  default  use  IPsec  to  authenticate connections, they have higher chances of providing sufficient security than SS7, which has no such protection. However, there is also the possibility that the IP based attacks from the Internet could be replicated in the telecommunication networks. 
 
 Diameter addresses a broader range of emerging technologies than just cellular access, such as Mobile IP and the Internet of Things (IoT). Diameter was designed to resolve the issues with its predecessor, Radius, by improving the authentication, authorization and accounting (AAA) functionality. Since any node within the Diameter system can initiate a request, Diameter is considered to be a peer-to-peer (P2P) communication  protocol. The AAA functionality is incorporated with the help of a  Network Authentication Server (NAS) and a shared authentication server. Being a P2P network, every node within the Diameter system can act as a client or a server depending on the network deployment. Every peer within the system uses dynamic peer discovery strategies including peer tables [2], which removes the need for the manual configuration of the NAS.  Diameter can use the SCTP or Transmission Control Protocol (TCP) as the transport layer protocol.
@@ -23,24 +25,22 @@ Many of SS7 design features including some flaws have been replicated in the Dia
 
 ---
 
-[1] V. Fajardo, J. Arkko, J. Loughney and G. Zorn, "Diameter Base Protocol," RFC Editor, 2012.
+1. V. Fajardo, J. Arkko, J. Loughney and G. Zorn, "Diameter Base Protocol," RFC Editor, 2012.
+2. J. Liu, S. Jiang and H. Lin, "introduction to Diameter," IBM Developerworks, [Online].  
+3. M.  Mimoso, "Cellular Privacy, SS7 Security Shattered at 31C3.," Threatpost, 30 December 2014. [Online]. 
+4. 3GPP, "3GPP TR 23.840: Study into routing of MT-SMs via the HPLMN,"  3rd Generation Partnership Project. 
+5. PP,  "3GPP TS 29.305:  InterWorking Function (IWF) between MAP based and Diameter based interfaces," 3rd Generation partnership Project.
+6. T. Dierks and E. Rescorla, "The Transport Layer Security (TLS) Protocol Version 1.2," RFC Editor, 2008. 
+7. M. Cooper, Y. Dzambasow, P. Hesse, S. Joseph and R. Nicholas, "Internet X.509 Public Key Infrastructure: Certification Path Building," RFC Editor, 2005.
+8. Oracle Communications, "The Value of Diameter Signaling in Security and Interworking Between 3G and LTE Networks," Oracle Communications, [Online].  
+9. A. Hoisa, "Comparision between RADIUS and Diameter," [Online].  
+10. P. Calhoun, J. Loughney, E. Guttman, G. Zorn and J. Arkko, "Diameter Base Protocol," RFC Editor, 2003.
+11. L. Philippe, "Diameter vs SS7 from a security perspective,"  P1 Labs,  13 July 2013. [Online].
 
-[2] J. Liu, S. Jiang and H. Lin, "introduction to Diameter," IBM Developerworks, [Online]. 
 
-[3] M.  Mimoso, "Cellular Privacy, SS7 Security Shattered at 31C3.," Threatpost, 30 December 2014. [Online].
 
-[4] 3GPP, "3GPP TR 23.840: Study into routing of MT-SMs via the HPLMN,"  3rd Generation Partnership Project.
 
-[5] 3GPP,  "3GPP TS 29.305:  InterWorking Function (IWF) between MAP based and Diameter based interfaces," 3rd Generation partnership Project.
 
-[6] T. Dierks and E. Rescorla, "The Transport Layer Security (TLS) Protocol Version 1.2," RFC Editor, 2008.
 
-[7] M. Cooper, Y. Dzambasow, P. Hesse, S. Joseph and R. Nicholas, "Internet X.509 Public Key Infrastructure: Certification Path Building," RFC Editor, 2005.
 
-[8] Oracle Communications, "The Value of Diameter Signaling in Security and Interworking Between 3G and LTE Networks," Oracle Communications, [Online]. 
 
-[9] A. Hoisa, "Comparision between RADIUS and Diameter," [Online]. 
-
-[10] P. Calhoun, J. Loughney, E. Guttman, G. Zorn and J. Arkko, "Diameter Base Protocol," RFC Editor, 2003.
-
-[12] L. Philippe, "Diameter vs SS7 from a security perspective,"  P1 Labs,  13 July 2013. [Online]. 
