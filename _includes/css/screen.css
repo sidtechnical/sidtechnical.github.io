@@ -265,3 +265,7 @@ sup {
   vertical-align: super;
   font-size: smaller;
 }
+
+#post {
+ text-align: justify;
+}
