@@ -5,7 +5,7 @@ categories:
 - blog
 - projects
 ---
----
+
 ### **TL;DR**:
 **NetRadar-India** is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network 
 infrastructure. To know more about how to participate, please visit our [website](http://netradar-india.github.io/).
@@ -54,5 +54,6 @@ For more queries regarding the user study please check out the [FAQ page](http:/
 Thanks and regards,
 
 NetRadar-India research team.
+
 ---
 
