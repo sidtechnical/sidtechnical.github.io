@@ -6,7 +6,7 @@ categories:
 ---
 
 ### TL;DR:
-** NetRadar-India ** is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network 
+**NetRadar-India** is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network 
 infrastructure. To know more about how to participate, please visit our [website](http://netradar-india.github.io/).
 
 ---
@@ -27,7 +27,7 @@ remarkably slower than in the developed countries. Furthermore, fraudulent episo
 the ethicality of our democratic government, but also haunts the possible incapability of telecom operators, if any. 
 
 In order to asses the state of mobile networks in India and its readiness in adopting and using the latest mobile standards 
-for commercial use we have launched the ** Netradar-India project ** - a crowdsourced user study, thereby addressing the technology 
+for commercial use we have launched the **Netradar-India project** - a crowdsourced user study, thereby addressing the technology 
 dependent deficiencies in the mobile network infrastructure. Hailing as an academic research initiative, NetRadar-India is not 
 targeted towards government or telecom operators, but definitely it would create awareness among the common people about the 
 infrastructure behind the services that they are paying for. Additionally, we believe that such an assessment would help to 
@@ -46,11 +46,12 @@ instructions provided here, so that the app can take the relevant measurements. 
 [project website](http://netradar-india.github.io/).
 
 
-** Please start by taking a small [survey](http://goo.gl/forms/0EWsqx8BnF) here before you start taking the measurements using NetRadar app. **
+**Please start by taking a small [survey](http://goo.gl/forms/0EWsqx8BnF) here before you start taking the measurements using NetRadar app.**
 
 For more queries regarding the user study please check out the [FAQ page](http://netradar-india.github.io/FAQ_index.html) or contact us. 
 
 Thanks and regards,
+
 NetRadar-India research team.
 
 
