@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 
 ## Surveillance using signalling protocols
@@ -9,7 +10,3 @@ Most of us have read Washington Post’s coverage of National Security issues, i
 1. It is a well narrated series both in terms of technical depth and impact on the end-users (civilians)
 2. The backend systems extensively utilized a protocol called "Siganlling System No. 7" - which has been the area of my interest since my [master's thesis](https://aaltodoc.aalto.fi/handle/123456789/19044).
 3. item
-
-
-
-
