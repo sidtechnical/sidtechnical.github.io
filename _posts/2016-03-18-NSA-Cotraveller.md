@@ -16,4 +16,6 @@ Most of us have read Washington Post’s coverage of National Security issues, i
 
 For some reasons, I took special interest to dig deep into vulnerabilities based on SS7 protocol and I have discussed the same in my subsequent publications such as [unblocking stolen mobiles using SS7-MAP vulnerabilities](http://sidtechnical.github.io/2016/03/16/eeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7345408) or downgrading LTE networks using to enable user tracking. In this post, I will continue what Ashkan has discussed in his article to provide a deeper insight on **How NSA did it**! Mainly, I will discuss the end-to-end mechanism of NSA’s _**Co-traveller**_ surveillance program.
 
+NSA exploited the loopholes in _Radio Access Network_ of mobile telephony target specific people to intercept there conversation. Remember [Angela Merkel's calls being trapped](https://www.washingtonpost.com/news/the-switch/wp/2013/10/24/the-switchboard-angela-merkel-reportedly-livid-over-alleged-nsa-surveillance/)!!
+
 
