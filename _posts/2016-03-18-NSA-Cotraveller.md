@@ -19,7 +19,7 @@ For some reasons, I took special interest to dig deep into vulnerabilities based
 NSA exploited the loopholes in _Radio Access Network (RAN)_ of mobile telephony target specific people to intercept there conversation. Remember [Angela Merkel's calls being trapped](https://www.washingtonpost.com/news/the-switch/wp/2013/10/24/the-switchboard-angela-merkel-reportedly-livid-over-alleged-nsa-surveillance/)!! RAN is the communication channel between your mobile phones to the _cell towers_ or _base stations_, and NSA planted fake base stations which are popularly known as **IMSI catchers** to conduct such targeted interception of mobile communication. However, this method is not effective enough to scale to perform mass surveillance as installing the IMSI catchers everywhere in the world is practically an infeasible idea. That too when NSA could simply exploit the backend of telecommunication called _core network_ using one of the signalling protocol called **Signalling System No. 7 (SS7)**. Relying on such protocols provided NSA with easy remote access to mobile users's data which indeed made mass surveillance an easier task.
 
 The NSA exploited the core network and signalling sytems worldwide to track locations of civilians in the name of a program called _Co-travellers_. Through this program NSA collected 5 billion user records per day to find and develop more suspected targets! Co-traveller was indeed a sophisticated end-to-end surveillance system to collect and analyze data from signalling systems. The figure below depicts the overall architecture: 
-![NSA Co-traveller surveillance architecture]({{site.baseurl}}/assets/NSA_Fascia_Cotraveller.png)
+![NSA Co-traveller surveillance architecture]({{site.baseurl}}/assets/NSA_Fascia_Cotraveller2.png)
 
 
 
