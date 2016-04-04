@@ -20,11 +20,3 @@ NSA exploited the loopholes in _Radio Access Network (RAN)_ of mobile telephony 
 
 The NSA exploited the core network and signalling sytems worldwide to track locations of civilians in the name of a program called _Co-travellers_. Through this program NSA collected 5 billion user records per day to find and develop more suspected targets! Co-traveller was indeed a sophisticated end-to-end surveillance system to collect and analyze data from signalling systems. The figure below depicts the overall architecture: 
 ![NSA Co-traveller surveillance architecture]({{site.baseurl}}/assets/NSA_Fascia_Cotraveller2.png)
-
-
-
-
-
-
-
-
