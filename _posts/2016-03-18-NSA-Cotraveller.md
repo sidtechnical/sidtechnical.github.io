@@ -13,4 +13,6 @@ Most of us have read Washington Post’s coverage of National Security issues, i
 2. The backend systems extensively utilized a protocol called “Siganlling System No. 7” - which has been the area of my interest since my [master’s thesis](https://aaltodoc.aalto.fi/handle/123456789/19044).
  
 
-For some reasons, I took special interest to dig deep into vulnerabilities based on SS7 protocol and I have discussed the same in my subsequent publications such as unblocking stolen mobiles using SS7-MAP vulnerabilities or downgrading LTE networks using to enable user tracking. In this post, I will continue what Ashkan has discussed in his article to provide a deeper insight on **How NSA did it**! Mainly, I will discuss the end-to-end mechanism of NSA’s _**Co-traveller**_ surveillance program.
+For some reasons, I took special interest to dig deep into vulnerabilities based on SS7 protocol and I have discussed the same in my subsequent publications such as [unblocking stolen mobiles using SS7-MAP vulnerabilities](http://sidtechnical.github.io/2016/03/16/eeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7345408) or downgrading LTE networks using to enable user tracking. In this post, I will continue what Ashkan has discussed in his article to provide a deeper insight on **How NSA did it**! Mainly, I will discuss the end-to-end mechanism of NSA’s _**Co-traveller**_ surveillance program.
+
+
