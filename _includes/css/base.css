@@ -53,7 +53,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font-family: PT Sans Narrow;
+		/*font-family: PT Sans Narrow;*/
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
