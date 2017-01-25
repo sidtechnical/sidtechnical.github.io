@@ -39,8 +39,11 @@ So, let us walk through an example, first by creating a skeleton latex file - sa
 \end{document}
 ```
 The output pdf (document.pdf) when I run ```pdflatex document.tex```, it looks like this.
+
 ---
+
 ![Bare minimal PDF without citation]({{site.baseurl}}/assets/images/bare_minimal_pdf.png)
+
 ---
 
 Now, I have four bibliography files as follows:
@@ -180,7 +183,7 @@ I am citing \citesec{kandukuri2009cloud} from the security.bib file.
 
 This has to be compiled in the terminal as follows:
 
-```
+``` bash
 pdflatex document.tex
 
 % The mandatory additional step is to compile every aux file using bibtex seperately, which TexMaker fails to do 
