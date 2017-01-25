@@ -43,7 +43,8 @@ Now, I have four bibliography files as follows:
 
 Contents of these .bib files are as follows:
 
-bibliography.bib
+*bibliography.bib*
+
 ``` 
 
 @article{schloss2009introducing,
@@ -64,7 +65,8 @@ bibliography.bib
 }
 ``` 
 
-security.bib
+*security.bib*
+
 ``` 
 @inproceedings{kandukuri2009cloud,
   title={Cloud security issues},
@@ -86,7 +88,8 @@ security.bib
 
 ```
 
-privacy.bib
+*privacy.bib*
+
 ``` 
 @article{westin1968privacy,
   title={Privacy and freedom},
@@ -111,7 +114,8 @@ privacy.bib
 }
 ```
 
-encryption.bib
+*encryption.bib*
+
 ``` 
 @inproceedings{boneh2001identity,
   title={Identity-based encryption from the Weil pairing},
