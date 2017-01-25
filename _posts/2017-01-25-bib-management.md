@@ -130,6 +130,7 @@ bibtex sec.aux
 
 pdflatex document.tex
 pdflatex document.tex
+```
 
 The output pdf looks like below:
 
@@ -140,7 +141,7 @@ Also, to add all the citations from a bibliography file without citing them can 
 
 So, the final code in document.tex will look like this:
 
-```python
+```
 \documentclass{article}
 \usepackage{multibib}
 \usepackage{lipsum} %package to generate dummy text.
@@ -179,8 +180,7 @@ I am citing \citesec{kandukuri2009cloud} from the security.bib file.
 
 This has to be compiled in the terminal as follows:
 
-``` bash
-
+```
 pdflatex document.tex
 
 % The mandatory additional step is to compile every aux file using bibtex seperately, which TexMaker fails to do 
@@ -196,7 +196,7 @@ pdflatex document.tex
 
 
 ```
-The final PDF output is here.
+The final PDF output is [here]({{site.baseurl}}/assets/files/document.pdf).
 
 
 
