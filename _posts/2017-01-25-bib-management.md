@@ -38,108 +38,13 @@ So, let us walk through an example, first by creating a skeleton latex file - sa
 
 \end{document}
 ```
-The output pdf (document.pdf) when I run pdflatex ```document.tex``` looks like this.
+The output pdf (document.pdf) when I run ```pdflatex document.tex```, it looks like this.
+![Bare minimal PDF without citation]({{site.baseurl}}/assets/images/bare_minimal_pdf.png)
 
 Now, I have four bibliography files as follows:
 
-* ```bibliography.bib``` which I intend to use it as the genric bibiliography file. It means, I can just cite the content within this file strightaway using ```\cite{<xxx>}``` and it appears in the end of the output PDF.
-* security.bib, privacy.bib and encryption.bib which I intend to cite them in different section so that the citations from these files are displayed right after the section, rather than appearin in the end of the PDF document.
-
-Contents of these .bib files are as follows:
-
-*bibliography.bib*
-
-```python 
-
-@article{schloss2009introducing,
-  title={Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities},
-  author={Schloss, Patrick D and Westcott, Sarah L and Ryabin, Thomas and Hall, Justine R and Hartmann, Martin and Hollister, Emily B and Lesniewski, Ryan A and Oakley, Brian B and Parks, Donovan H and Robinson, Courtney J and others},
-  journal={Applied and environmental microbiology},
-  volume={75},
-  number={23},
-  pages={7537--7541},
-  year={2009},
-  publisher={Am Soc Microbiol}
-}
-
-@article{casti1994complexification,
-  title={Complexification explaining a paradoxical world through the science of surprise},
-  author={Casti, John L},
-  year={1994}
-}
-``` 
-
-*security.bib*
-
-```python
-@inproceedings{kandukuri2009cloud,
-  title={Cloud security issues},
-  author={Kandukuri, Balachandra Reddy and Rakshit, Atanu and others},
-  booktitle={Services Computing, 2009. SCC'09. IEEE International Conference on},
-  pages={517--520},
-  year={2009},
-  organization={IEEE}
-}
-
-@inproceedings{sabahi2011cloud,
-  title={Cloud computing security threats and responses},
-  author={Sabahi, Farzad},
-  booktitle={Communication Software and Networks (ICCSN), 2011 IEEE 3rd International Conference on},
-  pages={245--249},
-  year={2011},
-  organization={IEEE}
-}
-
-```
-
-*privacy.bib*
-
-``` python
-@article{westin1968privacy,
-  title={Privacy and freedom},
-  author={Westin, Alan F},
-  journal={Washington and Lee Law Review},
-  volume={25},
-  number={1},
-  pages={166},
-  year={1968}
-}
+* [bibliography.bib]({{site.baseurl}}/assets/files.bibliography.bib) which I intend to use it as the genric bibiliography file. It means, I can just cite the content within this file strightaway using ```\cite{<xxx>}``` and it appears in the end of the output PDF.
+* [security.bib]({{site.baseurl}}/assets/files/security.bib), [privacy.bib]({{site.baseurl}}/assets/files/privacy.bib) and [encryption.bib]({{site.baseurl}}/assets/files/encryption.bib) which I intend to cite them in different section so that the citations from these files are displayed right after the section, rather than appearin in the end of the PDF document.
 
 
-@inproceedings{agrawal2000privacy,
-  title={Privacy-preserving data mining},
-  author={Agrawal, Rakesh and Srikant, Ramakrishnan},
-  booktitle={ACM Sigmod Record},
-  volume={29},
-  number={2},
-  pages={439--450},
-  year={2000},
-  organization={ACM}
-}
-```
-
-*encryption.bib*
-
-``` python
-@inproceedings{boneh2001identity,
-  title={Identity-based encryption from the Weil pairing},
-  author={Boneh, Dan and Franklin, Matt},
-  booktitle={Annual International Cryptology Conference},
-  pages={213--229},
-  year={2001},
-  organization={Springer}
-}
-
-
-@article{needham1978using,
-  title={Using encryption for authentication in large networks of computers},
-  author={Needham, Roger M and Schroeder, Michael D},
-  journal={Communications of the ACM},
-  volume={21},
-  number={12},
-  pages={993--999},
-  year={1978},
-  publisher={ACM}
-}
-```
 
