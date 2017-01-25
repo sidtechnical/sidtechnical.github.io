@@ -43,8 +43,8 @@ The output pdf (document.pdf) when I run ```pdflatex document.tex```, it looks l
 
 Now, I have four bibliography files as follows:
 
-* [bibliography.bib]({{site.baseurl}}/assets/files.bibliography.bib) which I intend to use it as the genric bibiliography file. It means, I can just cite the content within this file strightaway using ```\cite{<xxx>}``` and it appears in the end of the output PDF.
-* [security.bib]({{site.baseurl}}/assets/files/security.bib), [privacy.bib]({{site.baseurl}}/assets/files/privacy.bib) and [encryption.bib]({{site.baseurl}}/assets/files/encryption.bib) which I intend to cite them in different section so that the citations from these files are displayed right after the section, rather than appearin in the end of the PDF document.
+* [bibliography.bib](https://raw.githubusercontent.com/sidtechnical/sidtechnical.github.io/master/assets/files/bibliography.bib) which I intend to use it as the genric bibiliography file. It means, I can just cite the content within this file strightaway using ```\cite{<xxx>}``` and it appears in the end of the output PDF.
+* [security.bib](https://raw.githubusercontent.com/sidtechnical/sidtechnical.github.io/master/assets/files/security.bib), [privacy.bib](https://raw.githubusercontent.com/sidtechnical/sidtechnical.github.io/master/assets/files/privacy.bib) and [encryption.bib](https://raw.githubusercontent.com/sidtechnical/sidtechnical.github.io/master/assets/files/encryption.bib) which I intend to cite them in different section so that the citations from these files are displayed right after the section, rather than appearin in the end of the PDF document.
 
 
 
