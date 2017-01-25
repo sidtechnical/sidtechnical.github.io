@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bibliography management from multiple resources in LaTeX using multibib package.
+title:  Bibliography management from multiple resources using ```multibib```.
 categories: 
   - blog
   - latex, writing
