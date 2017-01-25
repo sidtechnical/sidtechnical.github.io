@@ -78,7 +78,11 @@ Let us \cite{casti1994complexification} and \cite{schloss2009introducing} from t
 The output pdf has to be compiled by running ```pdflatex document.tex```, followed by ```bibtex document.aux``` and again running ```pdflatex document.tex``` twice. The output pdf looks like follows:
 P.S: This can be done in TexMaker just by pressing **F1** (shortcut for "Quick Build")),
 
+---
+
 ![Genric citation]({{site.baseurl}}/assets/images/generic_citation_pdf.png)
+
+---
 
 Until now, everything is straighforward. Now, we will have to add new bibliographies and code to allow us to cite it from those files in the following format:
 
@@ -137,7 +141,11 @@ pdflatex document.tex
 
 The output pdf looks like below:
 
+---
+
 ![citation sectionwise]({{site.baseurl}}/assets/images/section_wise_citation_pdf.png)
+
+---
 
 
 Also, to add all the citations from a bibliography file without citing them can be displayed in the list of bibliography section using ```\noite{*}``` in which it loads everything from our generic ```bibliography.bib``` file. To do the same from other bibliography files, we have to use nocitepriv{*} and nociteenc{*}.
@@ -196,8 +204,6 @@ bibtex enc.aux
 
 pdflatex document.tex
 pdflatex document.tex
-
-
 ```
 The final PDF output is [here]({{site.baseurl}}/assets/files/document.pdf).
 
