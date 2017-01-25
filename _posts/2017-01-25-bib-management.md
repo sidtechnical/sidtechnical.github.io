@@ -30,11 +30,15 @@ So, let us walk through an example, first by creating a skeleton latex file - sa
 ```
 \documentclass{article}
 \usepackage{multibib}
+\usepackage{lipsum} %package to generate dummy text.
+
 
 \begin{document}
+\lipsum[1] %generating dummy text
 
 \end{document}
 ```
+The output pdf (document.pdf) when I run pdflatex ```document.tex``` looks like this.
 
 Now, I have four bibliography files as follows:
 
@@ -45,7 +49,7 @@ Contents of these .bib files are as follows:
 
 *bibliography.bib*
 
-``` 
+```python 
 
 @article{schloss2009introducing,
   title={Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities},
@@ -67,7 +71,7 @@ Contents of these .bib files are as follows:
 
 *security.bib*
 
-``` 
+```python
 @inproceedings{kandukuri2009cloud,
   title={Cloud security issues},
   author={Kandukuri, Balachandra Reddy and Rakshit, Atanu and others},
@@ -90,7 +94,7 @@ Contents of these .bib files are as follows:
 
 *privacy.bib*
 
-``` 
+``` python
 @article{westin1968privacy,
   title={Privacy and freedom},
   author={Westin, Alan F},
@@ -116,7 +120,7 @@ Contents of these .bib files are as follows:
 
 *encryption.bib*
 
-``` 
+``` python
 @inproceedings{boneh2001identity,
   title={Identity-based encryption from the Weil pairing},
   author={Boneh, Dan and Franklin, Matt},
