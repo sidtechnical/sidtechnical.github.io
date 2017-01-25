@@ -43,8 +43,8 @@ Now, I have four bibliography files as follows:
 
 Contents of these .bib files are as follows:
 
+bibliography.bib
 ``` 
-%bibliography.bib
 
 @article{schloss2009introducing,
   title={Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities},
@@ -63,12 +63,10 @@ Contents of these .bib files are as follows:
   year={1994}
 }
 
-
-```
-
 ``` 
-%security.bib
 
+security.bib
+``` 
 @inproceedings{kandukuri2009cloud,
   title={Cloud security issues},
   author={Kandukuri, Balachandra Reddy and Rakshit, Atanu and others},
@@ -89,9 +87,8 @@ Contents of these .bib files are as follows:
 
 ```
 
+privacy.bib
 ``` 
-%privacy.bib
-
 @article{westin1968privacy,
   title={Privacy and freedom},
   author={Westin, Alan F},
@@ -116,9 +113,8 @@ Contents of these .bib files are as follows:
 
 ```
 
+encryption.bib
 ``` 
-%encryption.bib
-
 @inproceedings{boneh2001identity,
   title={Identity-based encryption from the Weil pairing},
   author={Boneh, Dan and Franklin, Matt},
