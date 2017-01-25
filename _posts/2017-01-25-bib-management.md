@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bibliography management from multiple resources using ```multibib```.
+title:  Bibliography management from multiple resources using multibib.
 categories: 
   - blog
   - latex, writing
@@ -62,7 +62,6 @@ bibliography.bib
   author={Casti, John L},
   year={1994}
 }
-
 ``` 
 
 security.bib
@@ -110,7 +109,6 @@ privacy.bib
   year={2000},
   organization={ACM}
 }
-
 ```
 
 encryption.bib
@@ -135,7 +133,5 @@ encryption.bib
   year={1978},
   publisher={ACM}
 }
-
-
 ```
 
