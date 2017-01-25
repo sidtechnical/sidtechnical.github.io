@@ -54,5 +54,149 @@ Suppose, I want to have the bibliography in alpha style by default, i can define
 \bibliographystyle{alpha}
 ```
 
+and I can cite anything by defining the bibliography file by adding the line ```\bibliography{<_name_of_the_bib_file>.bib}``` and citing a specific item in that bib file by the code \cite{name_of_the_handle}. As I mentioned earlier, I will be using bibiliography.bib as the default and I will cite both the items in by adding the following lines to my document.tex file.
+
+
+```python
+\documentclass{article}
+\usepackage{multibib}
+\usepackage{lipsum} %package to generate dummy text.
+
+\bibliographystyle{alpha}%default style for generic bibliography.
+
+\begin{document}
+\lipsum[1] %generating dummy text
+Let us \cite{casti1994complexification} and \cite{schloss2009introducing} from the generic bibilogrpahy. 
+
+\bibliography{bibliography.bib}
+\end{document}
+```
+
+The output pdf has to be compiled by running ```pdflatex document.tex```, followed by ```bibtex document.aux``` and again running ```pdflatex document.tex``` twice. The output pdf looks like follows:
+P.S: This can be done in TexMaker just by pressing **F1** (shortcut for "Quick Build")),
+
+![Genric citation]({{site.baseurl}}/assets/images/generic_citation_pdf.png)
+
+Until now, everything is straighforward. Now, we will have to add new bibliographies and code to allow us to cite it from those files in the following format:
+
+```python
+\newcites{<_bib_handle>}{<Name for the reference section>}
+```
+Since we have three other files, and to easily recognize them, I will add the following lines of code to the preamble of the tex file.
+
+```python
+\newcites{sec}{Citations related to security}
+\newcites{priv}{Citations related to privacy}
+\newcites{enc}{Citations related to encryption}
+
+```
+
+Now, if we want to cite from the security.bib file, we have to cite it as follows:
+
+```python
+\documentclass{article}
+\usepackage{multibib}
+\usepackage{lipsum} %package to generate dummy text.
+
+\bibliographystyle{alpha} %default style for generic bibliography.
+
+\newcites{sec}{Citations related to security}
+\newcites{priv}{Citations related to privacy}
+\newcites{enc}{Citations related to encryption}
+
+
+
+\begin{document}
+\lipsum[1] %generating dummy text
+Let us \cite{casti1994complexification} and \cite{schloss2009introducing} from the generic bibilogrpahy. 
+
+\section{Content about security}
+I am citing \citesec{kandukuri2009cloud} from the security.bib file.
+\bibliographystylesec{alpha} % remember to add the bibliography style
+\bibliographysec{security.bib} and mention the bib file.
+
+\bibliography{bibliography.bib}
+\end{document}
+```
+Now comes thre twist! Unlike the bare minimal example, we cannot simply compile from TexMaker. Instead we have to compile all the ``` .aux``` file manually from the command line. The order of compiling is as follows:
+
+```bash
+pdflatex document.tex %no change from the generic citation example
+bibtex document.aux  %no change from the generic citation example
+% Since we added the command for security.bib as \newcites{sec}{Citations related to security}, 
+% it creates an auxilliary file by the name sec.aux, which has to be manually compiled with bibtex.
+
+bibtex sec.aux 
+
+pdflatex document.tex
+pdflatex document.tex
+
+The output pdf looks like below:
+
+![citation sectionwise]({{site.baseurl}}/assets/images/section_wise_citation_pdf.png)
+
+
+Also, to add all the citations from a bibliography file without citing them can be displayed in the list of bibliography section using ```\noite{*}``` in which it loads everything from our generic ```bibliography.bib``` file. To do the same from other bibliography files, we have to use nocitepriv{*} and nociteenc{*}.
+
+So, the final code in document.tex will look like this:
+
+```python
+\documentclass{article}
+\usepackage{multibib}
+\usepackage{lipsum} %package to generate dummy text.
+
+\bibliographystyle{alpha} %default style for generic bibliography.
+
+\newcites{sec}{Citations related to security}
+\newcites{priv}{Citations related to privacy}
+\newcites{enc}{Citations related to encryption}
+
+
+
+\begin{document}
+\lipsum[1] %generating dummy text
+Let us \cite{casti1994complexification} and \cite{schloss2009introducing} from the generic bibilogrpahy. 
+
+\section{Content about security}
+I am citing \citesec{kandukuri2009cloud} from the security.bib file.
+\bibliographystylesec{alpha} % remember to add the bibliography style
+\bibliographysec{security.bib} and mention the bib file.
+
+\section{Content about privacy}
+\nocitepriv{*}
+\bibliographystylepriv{alpha}
+\bibliographypriv{privacy.bib}
+%
+\section{Content about encryption}
+\nociteenc{*}
+\bibliographystyleenc{alpha}
+\bibliographyenc{encryption.bib}
+
+
+\bibliography{bibliography.bib}
+\end{document}
+```
+
+This has to be compiled in the terminal as follows:
+
+``` bash
+
+pdflatex document.tex
+
+% The mandatory additional step is to compile every aux file using bibtex seperately, which TexMaker fails to do 
+% by default in spite of proper settings.
+
+bibtex document.aux
+bibtex sec.aux
+bibtex priv.aux
+bibtex enc.aux
+
+pdflatex document.tex
+pdflatex document.tex
+
+
+```
+The final PDF output is here.
+
 
 
