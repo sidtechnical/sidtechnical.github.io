@@ -44,7 +44,148 @@ Modern browsers such as Firefox, Google Chrome, Opera and Internet Explorer stor
 At this point, it is obvious that our browsing history is accessible to our browsers, which is why it is highly recommended to use open-source trustworthy browsers such as [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/products/) ,which protects and respects your privacy. Whereas if you are using other browsers from the companies which are themselves the data brokers and advertisers, you end up giving away your browsing history to get tracked. So, assuming that we trust our browsers, let us exclude it from being a threat actor in our model. 
 
 
-** Table 2 **
+<!-- ** Table 2 ** -->
+<table>
+		<tbody>
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Entity</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Access to browsing history *</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Comments</span>
+					</p>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Malware in the computer</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Full</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Any program which has adequate privileges to start a browser process and browse the web potentially has the capacity to leak it. Such</span> <span><a href="https://www.google.com/url?q=http://www.spamfighter.com/News-20261-Horrid-Piece-of-Android-Malware-Monitors-Browser-History-Texts-and-Banking-Information.htm&amp;sa=D&amp;ust=1488540443662000&amp;usg=AFQjCNGWv0CtciDAzFR_mLpVlDIrEBUutQ">malwares</a></span><span>&nbsp;have a high demand in the darknet. &nbsp;Other than that, there are</span> <span><a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Browser_hijacking&amp;sa=D&amp;ust=1488540443663000&amp;usg=AFQjCNG92Mrcn_PDlz-fua0j-hYbuUjo3A">browser hijacking malware</a></span><span>&nbsp;which pollutes your history</span></p>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Wifi Hotspot</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Full</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Using</span> <span><a href="https://www.google.com/url?q=http://ieee-security.org/TC/SPW2016/MoST/slides/s2/t1.pdf&amp;sa=D&amp;ust=1488540443665000&amp;usg=AFQjCNGu6jkiMr4Y-jNXXjfbBvrUxsqPrA">captive Wi-Fi</a></span><span>&nbsp;is a common practice in many places, especially when using</span> <span><a href="https://www.google.com/url?q=http://qurinet.ucdavis.edu/pubs/conf/Ningning_INFOCOM13.pdf&amp;sa=D&amp;ust=1488540443666000&amp;usg=AFQjCNEwQ64uDmbHhyqyizENtwV9qbu52A">public hotspots</a></span><span>.</span></p>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Internet Service Providers (ISPs)</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Almost full</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>ISPs can seek many insights,</span> <span><a href="https://www.google.com/url?q=https://www.teamupturn.com/reports/2016/what-isps-can-see&amp;sa=D&amp;ust=1488540443669000&amp;usg=AFQjCNGNZsGWm3RQdTMrff_Z4_BS7hKdJQ">even when the traffic is encrypted</a></span><span>. Have a look at &ldquo;</span><span><a href="https://www.google.com/url?q=https://events.ccc.de/congress/2010/Fahrplan/attachments/1791_27C3-JeroenMassar-HowTheInternetSeesYou.pdf&amp;sa=D&amp;ust=1488540443670000&amp;usg=AFQjCNFvtSIgJEpf1mYq2AvlcY8BW2th6A">How Internet sees you</a></span><span>&rdquo;</span></p>
+
+
+					<p class="c1 c11"><span></span>
+					</p>
+
+
+					<p><span>HTTP: The ISP knows which pages you&#39;re visiting and could see the data you send and receive.</span>
+					</p>
+
+
+					<p><span>HTTPS: The ISP knows which domain you&#39;ve visited but not the URL parameters, and not the contents of any data you send or receive.</span>
+					</p>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Domain Name Service (DNS) Providers</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Partial</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Only the domain name queries and not complete URL.</span>
+					</p>
+
+
+					<p class="c1 c11"><span></span>
+					</p>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Cookies ( tracking, advertising and profiling companies)</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Partial to almost full (depending on who&rsquo;s cookie it is)</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Based on cookie origin policies, cookies from Website A can collect the history related to that.</span>
+					</p>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="1" rowspan="1">
+					<p><span>Websites that you visit</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Partial</span>
+					</p>
+				</td>
+
+				<td colspan="1" rowspan="1">
+					<p><span>Any websites that you visit would obviously know that you have visited them.</span>
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 
 In spite of the clear privacy implications, there is no clarity under the law about whether browsing history (more specifically the URLs) is to be protected as content or non-content metadata. Most of the lobbyists express their dissatisfaction about the changes between leaked and the official proposals of ePR. Out of many other concerns, the most questionable parts of the ePrivacy Regulations, at least for me is the [permitted usage and exceptions](http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=41461) of contents of communication. Things are a bit more complicated than that on two levels. Firstly, there are various cross-cutting issues (consent, tracking, ISPs, "value-added services", etc...) where metadata analysis comes up. Exceptions for web analytics could imply serious privacy concerns without stronger guarantees of statistical privacy. 
 
