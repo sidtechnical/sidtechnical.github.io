@@ -45,23 +45,23 @@ At this point, it is obvious that our browsing history is accessible to our brow
 
 
 <!-- ** Table 2 ** -->
-<!-- <table border="1">
+<table  align="center" border="1">
 		<tbody>
 			<tr>
-				<td colspan="1" rowspan="1">
+				<th colspan="1" rowspan="1">
 					<p><span>Entity</span>
 					</p>
-				</td>
+				</th>
 
-				<td colspan="1" rowspan="1">
-					<p><span>Access to browsing history *</span>
+				<th colspan="1" rowspan="1">
+					<p><span>Access to browsing history</span>
 					</p>
-				</td>
+				</th>
 
-				<td colspan="1" rowspan="1">
+				<th colspan="1" rowspan="1">
 					<p><span>Comments</span>
 					</p>
-				</td>
+				</th>
 			</tr>
 
 
@@ -185,25 +185,7 @@ At this point, it is obvious that our browsing history is accessible to our brow
 				</td>
 			</tr>
 		</tbody>
-	</table> -->
-
-| Entity | Access to browsing history * | Comments |
-| ------------- | ------------- | ------------- |
-| Malware in the computer | Full | Any program which has adequate privileges to start a browser process and browse the web potentially has the capacity to leak it. Such malwares have a high demand in the darknet.  Other than that, there are browser hijacking malware which pollutes your history. |
-| ------------- | ------------- | ------------- |
-| Wifi Hotspot | Full | Using captive Wi-Fi is a common practice in many places, especially when using public hotspots.|
-| ------------- | ------------- | ------------- |
-| Internet Service Providers (ISPs) | Almost full | ISPs can seek many insights, even when the traffic is encrypted. Have a look at “How Internet sees you”
-
-HTTP: The ISP knows which pages you're visiting and could see the data you send and receive.
-HTTPS: The ISP knows which domain you've visited but not the URL parameters, and not the contents of any data you send or receive. |
-| ------------- | ------------- | ------------- |
-| Domain Name Service (DNS) Providers | Partial |  Only the domain name queries and not complete URL.|
-| ------------- | ------------- | ------------- |
-| Cookies ( tracking, advertising and profiling companies) | Partial to almost full (depending on who’s cookie it is)
-Based on cookie origin policies, cookies from Website A can collect the history related to that. |
-| ------------- | ------------- | ------------- |
-|Websites that you visit | Partial | Any websites that you visit would obviously know that you have visited them.|
+	</table>
 
 In spite of the clear privacy implications, there is no clarity under the law about whether browsing history (more specifically the URLs) is to be protected as content or non-content metadata. Most of the lobbyists express their dissatisfaction about the changes between leaked and the official proposals of ePR. Out of many other concerns, the most questionable parts of the ePrivacy Regulations, at least for me is the [permitted usage and exceptions](http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=41461) of contents of communication. Things are a bit more complicated than that on two levels. Firstly, there are various cross-cutting issues (consent, tracking, ISPs, "value-added services", etc...) where metadata analysis comes up. Exceptions for web analytics could imply serious privacy concerns without stronger guarantees of statistical privacy. 
 
