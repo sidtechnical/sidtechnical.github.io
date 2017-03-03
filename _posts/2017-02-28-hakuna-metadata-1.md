@@ -3,7 +3,7 @@ layout: post
 title:  Hakuna Metadata (1) - Exploring the browsing history.
 categories: 
   - blog
-  - metadata, browsing history, Ubuntu, Firefox
+  - metadata
 published: true
 ---
 
