@@ -22,12 +22,10 @@ When the internet protocols were built, the intention was merely to establish a 
 ---
 
 *“Metadata absolutely tells you everything about somebody’s life. If you have enough metadata, you don’t really need content.”*
-	
-		- Stewart Baker, Ex- NSA General Counsel
+			- Stewart Baker, Ex- NSA General Counsel
 
 *“We kill people based on metadata.”*
-		
-		- Michael Hayden, former director of the NSA and ex- CIA
+			- Michael Hayden, former director of the NSA and ex- CIA
 
 ---
 
