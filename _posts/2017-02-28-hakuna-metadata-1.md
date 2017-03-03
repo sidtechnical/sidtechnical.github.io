@@ -20,6 +20,8 @@ Often we see that the data is considered to be sensitive and as a personal prope
 When the internet protocols were built, the intention was merely to establish a communication channel to connect the world. At that point of time, there were no much threats from government spying agencies, mass surveillance programs or from the advertisers. However, today we live in a world where everything we do on the Internet is being tracked and thus putting our privacy for sale on the data market. Even though the metadata has been a gold mine for Internet Service Providers (ISPs),  Telecommunication providers from past two decades, the privacy risks of the metadata started to be a debatable topic since the [Snowden revelations](http://uk.businessinsider.com/nsa-document-metadata-2016-12?r=US&IR=T).  Here are some of the quotes about the power of metadata from former big shots of government spying programs.
 
 ---
+---
+
 
 *“Metadata absolutely tells you everything about somebody’s life. If you have enough metadata, you don’t really need content.”*
 			- **Stewart Baker**, Ex- NSA General Counsel
@@ -27,6 +29,7 @@ When the internet protocols were built, the intention was merely to establish a 
 *“We kill people based on metadata.”*
 			- **Michael Hayden**, former director of the NSA and ex- CIA
 
+---
 ---
 
 Metadata by its virtue is not invented to help privacy invaders; instead it was intended to fasten the process of classification and indexing of any kind of bulk data, without looking at the data itself. So, by definition, metadata enforces data protection by letting someone process the data, without even looking at the content inside. However, that is also the fastest way to profile the whole internet users, right? Earlier in October 2015, Share Lab presented [this](https://labs.rs/en/metadata/) piece of  investigative journalism which articulates the hidden power of email metadata. Indeed, it is scary to see what one can understand about personal behavior just from the “To”, “From”, “Subject” and “Timestamp” fields. Other than the scary use-cases, there are a handful of projects such as [Proofmode](https://guardianproject.info/2017/02/24/combating-fake-news-with-a-smartphone-proof-mode/) (earlier known as Informacam - [CameraV](https://guardianproject.info/apps/informacam/)) which harness the power of metadata for combating against fake news. However, the number of projects which exploits that power for advertisement tracking and surveillance outbeats the genuine use cases of metadata.
