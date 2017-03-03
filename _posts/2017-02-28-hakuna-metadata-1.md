@@ -45,7 +45,7 @@ At this point, it is obvious that our browsing history is accessible to our brow
 
 
 <!-- ** Table 2 ** -->
-<table border=1>
+<table border="1">
 		<tbody>
 			<tr>
 				<td colspan="1" rowspan="1">
