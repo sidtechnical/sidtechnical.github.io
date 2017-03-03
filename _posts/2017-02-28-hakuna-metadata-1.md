@@ -50,13 +50,13 @@ Without getting much into that debate, let us explore browsing history as it pro
 
 Based on the browsing history contained in my computer, below is a simple analytics of the website domain names that I have visited the most. Like any other “normal” internet user I have used Google as the search engine; spent ample amount of time on social media sites such as Twitter, Facebook and LinkedIn; watched videos over Youtube; used Wikipedia as the primary source of information; shopped on Amazon; sought programming help over Github and Stackoverflow; and so on.
 
-![Figure 1: Most visited domain names]({{site.baseurl}}/assets/images/1_Stats_1.png =640x430)
+![Figure 1: Most visited domain names]({{site.baseurl}}/assets/images/1_Stats_1.png)
 
 According to ePR and as per the global norms of deducing useful insight of the users, ISPs can use such analytics for their survey purposes. Under genuine use cases, these kind of statistics are helpful for fine-tuning the bandwidth for specific websites that are used more by the users. Even though the top 20 websites remain the same across all parts of the world, depending on demographics and social structure of a region, the websites that will appear after the top 20 are not always the same. Your contribution to big data analytics, starts right from here - just by contributing the domain names of the websites that you have visited. The same chunk can be used for profiling you as well. May be these websites in Figure 1, is most common to all and does not really profile as you different. But, imagine some of the porn sites or your favourite political parties web page! Well, that makes you little different than others right?
 
 Figure 2 belows shows the suffixes or more technically the top-level domains (TLD) of the websites that I have visited the most. In many cases TLDs represent the countries that the websites are affiliated with. Also, websites like Google change the TLDs depending on the country from which you are browsing their website. For instance, even if you typed www.google.com from Belgium, it will be redirected to www.google.be automatically. Based on Figure 2, one can easily tell that I have connections with Finland (.fi), Belgium (.be), India (.in and .co.in) and some academic affiliation (.edu). While your ISP will obviously know these information, imagine the case when you are travelling!
 
-![Figure 2: Suffix (TLDs) of most visited websites]({{site.baseurl}}/assets/images/1_Stats_2.png =640x430)
+![Figure 2: Suffix (TLDs) of most visited websites]({{site.baseurl}}/assets/images/1_Stats_2.png)
 
 Even you are in a foreign country, you still visit websites related to your home country. So, along with the ISP of the foreign country, your geographic affiliation or affinity is now evident to the DNS providers as well. At this point, you have contributed second chunk of information to the big data and profiling to two of the entities which can collect data about you.
 
@@ -64,24 +64,24 @@ Even you are in a foreign country, you still visit websites related to your home
 
 If the internet traffic is HTTP, everything will be transmitted in plain text. So, ISPs can see full path of the URL (http://www.facebook.com/zuck). Whereas, when it is HTTPs only partial path is visible (https://www.facebook.com/) to the ISPs. To know more about how Internet works, refer to EDRi’s [paper](https://edri.org/papers/how-the-internet-works/) on the same topic.
 
-![Figure 3: Number of unique URLs visited over time]({{site.baseurl}}/assets/images/2_anomies.png =640x430)
+![Figure 3: Number of unique URLs visited over time]({{site.baseurl}}/assets/images/2_anomies.png)
 
 Since the full path of URL is visible to the ISPs when your traffic is not encrypted, they can start analysing your behavior online. Figure 3 represents a graph of the total number of unique websites that have visited over time based on my browsing history. As one can see, I visit 10-150 unique URLs on an average over the period of November 2015 to January 2017. Some peaks in the graph beyond this range shows a lot of anomalies in my browsing pattern. These anomalies could potentially indicate certain specific events of my life. It could be increased workload, planning my travel, searching for a job or anything that you can imagine.
 
 
-![Figure 4: Heatmap of browsing pattern - unique URLs visited over time]({{site.baseurl}}/assets/images/3_browsing_pattern_full.png =640x430)
+![Figure 4: Heatmap of browsing pattern - unique URLs visited over time]({{site.baseurl}}/assets/images/3_browsing_pattern_full.png)
 
 Another way of looking at the browsing patterns is by plotting a heatmap of the same data i.e. the number of unique URLs visited over time as shown in Figure 4. While Figure 3 shows the anomalies in the browsing pattern, the heatmap gives a snapshot of the lifestyle in an easily understandable manner. 
 
-![Figure 5: Heatmap of browsing pattern - sleeping (idle) and leisure time]({{site.baseurl}}/assets/images/4_browsing_pattern_sleeping_time_2.png =640x430)
+![Figure 5: Heatmap of browsing pattern - sleeping (idle) and leisure time]({{site.baseurl}}/assets/images/4_browsing_pattern_sleeping_time_2.png)
 
 There are consistent patterns in the lower half and the upper quarter of the graph. Even within those patterns, we can see two different sets, which depicts my work time browsing and after-work leisurely activities as it fades out from 20:00 hour onwards. In the figure 5, from 12:00 AM till 07:00 AM, there is a constant strip of dark patch which represents less activity over the internet, or in other words it is the time when I sleep.
 
-![Figure 6: Heatmap of browsing pattern - travel]({{site.baseurl}}/assets/images/5_browsing_pattern_travel.png =640x430)
+![Figure 6: Heatmap of browsing pattern - travel]({{site.baseurl}}/assets/images/5_browsing_pattern_travel.png)
 
 As highlighted in the figure 6, there are certain patches within the strip of my sleeping pattern. When correlated with the change in name suffixes (with reference to figure 2), it was found out to be work-related travels. In other words, I had travelled to a different timezone and continued to work from 9.00 AM to 7:00 PM as I have done on any other regular day.
 
-<img width="640" height="430"src="/assets/images/6_browsing_pattern_holiday.png" alt="Figure 7: Heatmap of browsing pattern - Holiday season">
+![Figure 7: Heatmap of browsing pattern - Holiday season]({{site.baseurl}}/assets/images/6_browsing_pattern_holiday.png)
 
 
 If we zoom in the graph more (As represented in figure 7), there are patterns which show high number of browsing, a patch of almost no activities even during the regular working hours, then a sudden increase in browsing activities and finally resuming to normal working hour pattern. This depicts that I planned for my holiday (checking into flights, confirming hotel booking, etc.), took a break from work, returned from the holiday (sudden increase is possibly due to following up on emails and activities that I might have missed during my trip) and finally resuming my work. 
@@ -92,24 +92,24 @@ So, at this point,  one can know about my working hours, sleep time, work-relate
 
 As mentioned earlier, browsing history falls into the grey area of  whether to be  treated and protected as content data or as the non-content metadata. Unlike many other metadata, where it is not possible to retrieve the complete content data just by using the metadata associated with it, it is possible to retrieve all the contents of the websites that you have visited by crawling over the list of URLs from your browsing history. Whether or not it happens in reality, to avoid giving the list of URLs directly to advertisers, the ISPs can automate their analytics system to crawl over the list to seek insight on what you might have seen while browsing. By giving away just the keywords deduced from the websites that you have visited to the advertisers, the ISPs can potentially bypass the privacy laws by claiming it as anonymized. 
 
-![Figure 8: Wordcloud generated by crawling over the list of URLs from the browsing history]({{site.baseurl}}/assets/images/7_generic_word_cloud.png =640x430)
+![Figure 8: Wordcloud generated by crawling over the list of URLs from the browsing history]({{site.baseurl}}/assets/images/7_generic_word_cloud.png)
 
 Figure 8 represents the wordcloud generated by crawling over the most visited websites by me. Not so surprisingly, being a security and privacy researcher, I can see those words in this cloud, along with other keywords related to my identity - both from professional and personal life. This cloud was derived by excluding all the social media and search engine related URLs.
 
 Yet another buzzwords which we hear often these days is - “Data mining” and “machine learning”. Data Mining refers to seeking useful insights programmatically from the collected bulk data, whereas machine learning is to use that insight for data-driven decision making. One of the features of these methods known as [Named Entity Recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition) which allows to classify the text into categories such as organizations,  persons and locations. 
 
-![Figure 9: Wordcloud generated by Name-Entity Recognition - Organizational entities]({{site.baseurl}}/assets/images/8_org_word_cloud.png =640x430)
+![Figure 9: Wordcloud generated by Name-Entity Recognition - Organizational entities]({{site.baseurl}}/assets/images/8_org_word_cloud.png)
 
 If we run NER algorithms on the text retrieved by crawling over the list of URLs that you have visited, it provides more clarity to the keywords that can be potentially generated. Figure 9 shows the keywords related to organizational entities from the websites that I have visited. This narrows down my generic profile to target me on the keywords found in this cloud. For example, I could be a potential customer for insurance companies, University and management related jobs.
 
 Further  down the line, figure 10 represents the names of the people found in the websites that I have visited the most. Surprisingly, I turned out to be the self-obsessed person who visits websites of his own or the websites that talks about himself. In the Person names cloud, I can see some of my academic co-authors, role models or the people whom I follow. Imagine that there are the names of Tim Cook or Steve Jobs! I am probably a potential customer for Apple! So, the list of adwords targeted towards me could include Apple products here onwards. 
 
-![Figure 10: Wordcloud generated by Name-Entity Recognition - Person names]({{site.baseurl}}/assets/images/9_person_word_cloud.png =640x430)
+![Figure 10: Wordcloud generated by Name-Entity Recognition - Person names]({{site.baseurl}}/assets/images/9_person_word_cloud.png)
 
 How about my next travel destination? Can it be predicted from my web history? Possible yes - it could be Brazil, China or Singapore!
 
 
-![Figure 11: Wordcloud generated by Name-Entity Recognition - Location entities]({{site.baseurl}}/assets/images/10_loc_word_cloud.png =640x430)
+![Figure 11: Wordcloud generated by Name-Entity Recognition - Location entities]({{site.baseurl}}/assets/images/10_loc_word_cloud.png)
 
 As the Figure 11 represents, I might have visited the websites which contained those locations which could probably be my next travel destination. Even without doing any fancy machine learning processing, I could attest that these were actually some of the places that I am planning to visit! 
 
@@ -117,7 +117,7 @@ As  mentioned before, if you are using HTTPs, the ISPs can see the full URL path
 
 If you have searched for “vegetarian restaurants in Brussels”in Google , your Google query URL will be [https://www.google.be/search?q=vegetarian+restaurant+brussel](https://www.google.be/search?q=vegetarian+restaurant+brussel). Assuming that the ISPs will use the keywords you are searching to profile you again, it makes their job of deriving the adwords for your future targeted advertisements much more easier.
 
-![Figure 12: Word frequency graph of Google search keywords]({{site.baseurl}}/assets/images/11_query_stats_2.png =640x430)
+![Figure 12: Word frequency graph of Google search keywords]({{site.baseurl}}/assets/images/11_query_stats_2.png)
 
 Figure 12 represents the most searched words by me on Google. From this graph, it is evident that I use Python programming language, Latex for writing reports, use a computer with Ubuntu as the operating system, research on security/privacy, and so on. This itself along with the previous world cloud would be enough to profile me. 
 
@@ -128,7 +128,7 @@ Unlike the metadata related to emails and phone call logs, the browsing history 
 
 However, it is possible to seek insight on your affinity towards the people within your social circle using the one-dimensional browsing history metadata. For example, you will visit your close friends social media profile more frequently than you visit your ex-colleague’s profile whom you know from first job. You might have visited the profile of your friend from the university more recently and frequently, than you visit your friend from high school. By capturing the number of visit counts and frecency (frequency + recency) from your browsing history, it is possible to reconstruct a pseudo social sphere (figure 13) , and thereby converting the browsing history to a two-dimensional data source.
 
-![Figure 13: Representation of pseudo-social sphere derived from social media related URLs]({{site.baseurl}}/assets/images/soc-circle.png =640x430)
+![Figure 13: Representation of pseudo-social sphere derived from social media related URLs]({{site.baseurl}}/assets/images/soc-circle.png)
 
 We all have different social circles - family members, childhood/high school friends, friends from work place, ex-colleagues , etc. Our affinity towards them is not necessarily unique. Even though they are not directly connected with each other, it is highly likely that our affinity towards them is similar. By capturing the social media URLs (Facebook and Twitter), Figure 13 represents one such social sphere. In circle 1, I saw a family member and my best friend; in circle 2, one of my colleagues, highschool friend and a family member were seen. This means I weigh them differently, but they can be grouped based on my affinity towards them.
 
