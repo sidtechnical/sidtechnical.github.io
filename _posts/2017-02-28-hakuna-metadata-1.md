@@ -51,7 +51,9 @@ Without getting much into that debate, let us explore browsing history as it pro
 Based on the browsing history contained in my computer, below is a simple analytics of the website domain names that I have visited the most. Like any other “normal” internet user I have used Google as the search engine; spent ample amount of time on social media sites such as Twitter, Facebook and LinkedIn; watched videos over Youtube; used Wikipedia as the primary source of information; shopped on Amazon; sought programming help over Github and Stackoverflow; and so on.
 
 ![Figure 1: Most visited domain names]({{site.baseurl}}/assets/images/1_Stats_1.png)
-| Figure 1: Most visited domain names|
+<p align="center">
+    <em>Figure 1: Most visited domain names</em>
+</p>
 
 According to ePR and as per the global norms of deducing useful insight of the users, ISPs can use such analytics for their survey purposes. Under genuine use cases, these kind of statistics are helpful for fine-tuning the bandwidth for specific websites that are used more by the users. Even though the top 20 websites remain the same across all parts of the world, depending on demographics and social structure of a region, the websites that will appear after the top 20 are not always the same. Your contribution to big data analytics, starts right from here - just by contributing the domain names of the websites that you have visited. The same chunk can be used for profiling you as well. May be these websites in Figure 1, is most common to all and does not really profile as you different. But, imagine some of the porn sites or your favourite political parties web page! Well, that makes you little different than others right?
 
