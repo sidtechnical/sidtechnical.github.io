@@ -9,7 +9,8 @@ published: true
 
 Since I joined European Digital Rights (EDRi) in September 2016, one of most hottest topics that is being discussed in the Brussels bubble is the review of ePrivacy rules (ePR). As a complementary instrument to the General Data Protection Regulation (GDPR),  ePR mainly deals with data protection and privacy in the electronic communications sector, such as the tracking of users when they browse the internet. Since the GDPR has been already finalized, advocacy around the ePR is probably the last chance to defend European citizens digital rights. One of my key responsibilities as the Ford-Mozilla [Open Web Fellow](https://advocacy.mozilla.org/en-US/open-web-fellows/fellows2016) is to bring [practical understanding to policy/political debate](https://storyengine.io/stories/decentralization/joe-mcnamee/), and I agreed with Joe that I will work on the issues that needs more technical clarifications. One such blur area in the ePR happens to be “metadata and the impact on privacy”. So, this article is an explainer about the power of metadata and the reason why we need stronger policies in that context.
 
-##What is metadata?
+## What is metadata?
+
 Without getting too much into details about the technical or [EU definitions](http://bit.ly/2lGtClu) of metadata, let us simply understand it as the data about the data. The table below illustrates the difference between the **data and the metadata**.
 
 ![Table 1: Data vs Metadata]({{site.baseurl}}/assets/images/hm_table1.png)
@@ -21,16 +22,17 @@ When the internet protocols were built, the intention was merely to establish a 
 ---
 
 *“Metadata absolutely tells you everything about somebody’s life. If you have enough metadata, you don’t really need content.”*
-- Stewart Baker, Ex- NSA General Counsel
+	- Stewart Baker, Ex- NSA General Counsel
 
-*“We kill people based on metadata.” *
-- Michael Hayden, former director of the NSA and ex- CIA
+*“We kill people based on metadata.”*
+	- Michael Hayden, former director of the NSA and ex- CIA
 
 ---
 
 Metadata by its virtue is not invented to help privacy invaders; instead it was intended to fasten the process of classification and indexing of any kind of bulk data, without looking at the data itself. So, by definition, metadata enforces data protection by letting someone process the data, without even looking at the content inside. However, that is also the fastest way to profile the whole internet users, right? Earlier in October 2015, Share Lab presented [this](https://labs.rs/en/metadata/) piece of  investigative journalism which articulates the hidden power of email metadata. Indeed, it is scary to see what one can understand about personal behavior just from the “To”, “From”, “Subject” and “Timestamp” fields. Other than the scary use-cases, there are a handful of projects such as [Proofmode](https://guardianproject.info/2017/02/24/combating-fake-news-with-a-smartphone-proof-mode/) (earlier known as Informacam - [CameraV](https://guardianproject.info/apps/informacam/)) which harness the power of metadata for combating against fake news. However, the number of projects which exploits that power for advertisement tracking and surveillance outbeats the genuine use cases of metadata.
 
-##Browsing history and the potential threat actors
+## Browsing history and the potential threat actors
+
 Modern browsers such as Firefox, Google Chrome, Opera and Internet Explorer stores the browsing history to provide a user-friendly browsing experience. By default, these browsers store the history of all the previously visited websites, cached copy of the websites, form filling history, cookie information and also bookmarks. Depending on the operating system and the browser, these information will be stored in a specific location on the hard disk of your computer in a lightweight database. Some of us rant about this default nature of the browsers, as it compels users to manually opt-out of browsing history storing mechanisms and the privacy concerns associated with it. Browser history - specifically the website information and cached copy has its own advantage in terms of usability:
 
 1. Automatic completion/suggestion of previously visited URLs.
