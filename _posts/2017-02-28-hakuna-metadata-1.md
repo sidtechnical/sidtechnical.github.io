@@ -81,7 +81,7 @@ There are consistent patterns in the lower half and the upper quarter of the gra
 
 As highlighted in the figure 6, there are certain patches within the strip of my sleeping pattern. When correlated with the change in name suffixes (with reference to figure 2), it was found out to be work-related travels. In other words, I had travelled to a different timezone and continued to work from 9.00 AM to 7:00 PM as I have done on any other regular day.
 
-![Figure 7: Heatmap of browsing pattern - Holiday season]({{site.baseurl}}/assets/images/6_browsing_pattern_holiday.png =640x430)
+<img width="640" height="430"src="/assets/images/6_browsing_pattern_holiday.png" alt="Figure 7: Heatmap of browsing pattern - Holiday season">
 
 
 If we zoom in the graph more (As represented in figure 7), there are patterns which show high number of browsing, a patch of almost no activities even during the regular working hours, then a sudden increase in browsing activities and finally resuming to normal working hour pattern. This depicts that I planned for my holiday (checking into flights, confirming hotel booking, etc.), took a break from work, returned from the holiday (sudden increase is possibly due to following up on emails and activities that I might have missed during my trip) and finally resuming my work. 
