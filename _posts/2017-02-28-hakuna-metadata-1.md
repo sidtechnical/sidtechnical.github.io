@@ -254,7 +254,7 @@ If we zoom in the graph more (As represented in figure 7), there are patterns wh
  
 So, at this point,  one can know about my working hours, sleep time, work-related travel and my holiday schedules just using my browsing metadata. That is quite a lot of information about me retrieved just from the metadata right?
 
-##Potential adwords
+## Potential adwords
 
 As mentioned earlier, browsing history falls into the grey area of  whether to be  treated and protected as content data or as the non-content metadata. Unlike many other metadata, where it is not possible to retrieve the complete content data just by using the metadata associated with it, it is possible to retrieve all the contents of the websites that you have visited by crawling over the list of URLs from your browsing history. Whether or not it happens in reality, to avoid giving the list of URLs directly to advertisers, the ISPs can automate their analytics system to crawl over the list to seek insight on what you might have seen while browsing. By giving away just the keywords deduced from the websites that you have visited to the advertisers, the ISPs can potentially bypass the privacy laws by claiming it as anonymized. 
 
@@ -318,7 +318,7 @@ We all have different social circles - family members, childhood/high school fri
 
 Just by knowing the browsing history, now the ISPs can tell who are my close friends, how much do they matter to me and who all have equal importance in my life. 
 
-##To summarize:
+## To summarize:
 I built a small/ naive tool to replicate the similar graphs shown in this article for almost anyone who is a Linux+Firefox user, browses Internet including social media like anyone else and most importantly stores the browsing history for a decent period of time. While making this tool as generic and simple as possible, I had to omit digging more information that could have been gathered from my own browsing history and exclude use of APIs (as they require individual users to obtain the API tokens). However, to know more about what browsing history could reveal about your personalities, refer to the case study by Share Lab. This provides lot more insights on what one can dig from your browsing history. 
 
 Whether or not the culprit ISPs as depicted in this article evade your privacy by doing all these analytics, it is indeed important to realize the power of metadata and your contribution to big data processing in the wild. Since privacy of the metadata can not be protected by merely encrypting it, we need stronger policies to defend our digital rights.
