@@ -64,6 +64,21 @@ a:visited {
 table {
   font-size: inherit;
   font: 100%;
+  border:2px solid #ff0000;
+  border-spacing: 10px;
+  border-collapse: collapse;
+}
+
+td{
+   padding: 10px;
+}
+
+
+table td.shrink {
+    white-space:nowrap
+}
+table td.expand {
+    width: 99%
 }
 
 img {
