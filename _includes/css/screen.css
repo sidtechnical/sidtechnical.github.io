@@ -61,7 +61,7 @@ a:visited {
   color: {{ site.data.theme.highlight_color }};
 }
 
-table {
+table, td, th {
   font-size: inherit;
   font: 100%;
   border:2px solid #ff0000;
