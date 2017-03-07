@@ -69,8 +69,14 @@ table, td, th {
   border-collapse: collapse;
 }
 
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
 td{
    padding: 10px;
+   text-align: left;
 }
 
 
