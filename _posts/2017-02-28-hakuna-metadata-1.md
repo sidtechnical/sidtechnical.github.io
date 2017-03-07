@@ -49,18 +49,16 @@ At this point, it is obvious that our browsing history is accessible to our brow
 		<tbody>
 			<tr>
 				<th colspan="1" rowspan="1">
-					<p><span>Entity</span>
-					</p>
+					Entity
+					
 				</th>
 
 				<th colspan="1" rowspan="1">
-					<p><span>Access to browsing history</span>
-					</p>
+					Access to history
 				</th>
 
 				<th colspan="1" rowspan="1">
-					<p><span>Comments</span>
-					</p>
+					Comments
 				</th>
 			</tr>
 
