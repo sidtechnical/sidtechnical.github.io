@@ -184,6 +184,9 @@ At this point, it is obvious that our browsing history is accessible to our brow
 			</tr>
 		</tbody>
 	</table>
+	<p align="center">
+    <em>Table 2: Access to browsing history</em>
+</p>
 
 In spite of the clear privacy implications, there is no clarity under the law about whether browsing history (more specifically the URLs) is to be protected as content or non-content metadata. Most of the lobbyists express their dissatisfaction about the changes between leaked and the official proposals of ePR. Out of many other concerns, the most questionable parts of the ePrivacy Regulations, at least for me is the [permitted usage and exceptions](http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=41461) of contents of communication. Things are a bit more complicated than that on two levels. Firstly, there are various cross-cutting issues (consent, tracking, ISPs, "value-added services", etc...) where metadata analysis comes up. Exceptions for web analytics could imply serious privacy concerns without stronger guarantees of statistical privacy. 
 
