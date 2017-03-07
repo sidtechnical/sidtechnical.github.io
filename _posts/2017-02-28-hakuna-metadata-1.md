@@ -184,7 +184,8 @@ At this point, it is obvious that our browsing history is accessible to our brow
 			</tr>
 		</tbody>
 	</table>
-	<p align="center">
+
+<p align="center">
     <em>Table 2: Access to browsing history</em>
 </p>
 
