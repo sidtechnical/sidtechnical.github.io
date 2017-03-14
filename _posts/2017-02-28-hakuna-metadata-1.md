@@ -75,7 +75,7 @@ At this point, it is obvious that our browsing history is accessible to our brow
 				</td>
 
 				<td colspan="1" rowspan="1">
-					<p><span>Any program which has adequate privileges to start a browser process and browse the web potentially has the capacity to leak it. Such</span> <span><a href="https://www.google.com/url?q=http://www.spamfighter.com/News-20261-Horrid-Piece-of-Android-Malware-Monitors-Browser-History-Texts-and-Banking-Information.htm&amp;sa=D&amp;ust=1488540443662000&amp;usg=AFQjCNGWv0CtciDAzFR_mLpVlDIrEBUutQ">malwares</a></span><span>&nbsp;have a high demand in the darknet. &nbsp;Other than that, there are</span> <span><a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Browser_hijacking&amp;sa=D&amp;ust=1488540443663000&amp;usg=AFQjCNG92Mrcn_PDlz-fua0j-hYbuUjo3A">browser hijacking malware</a></span><span>&nbsp;which pollutes your history</span></p>
+					<p><span>Any program which has adequate privileges to start a browser process and browse the web potentially has the capacity to leak it. Such</span> <span><a href=" http://www.spamfighter.com/News-20261-Horrid-Piece-of-Android-Malware-Monitors-Browser-History-Texts-and-Banking-Information.htm">malwares</a></span><span>&nbsp;have a high demand in the darknet. &nbsp;Other than that, there are</span> <span><a href="https://en.wikipedia.org/wiki/Browser_hijacking&">browser hijacking malware</a></span><span>&nbsp;which pollutes your history</span></p>
 				</td>
 			</tr>
 
@@ -92,7 +92,7 @@ At this point, it is obvious that our browsing history is accessible to our brow
 				</td>
 
 				<td colspan="1" rowspan="1">
-					<p><span>Using</span> <span><a href="https://www.google.com/url?q=http://ieee-security.org/TC/SPW2016/MoST/slides/s2/t1.pdf&amp;sa=D&amp;ust=1488540443665000&amp;usg=AFQjCNGu6jkiMr4Y-jNXXjfbBvrUxsqPrA">captive Wi-Fi</a></span><span>&nbsp;is a common practice in many places, especially when using</span> <span><a href="https://www.google.com/url?q=http://qurinet.ucdavis.edu/pubs/conf/Ningning_INFOCOM13.pdf&amp;sa=D&amp;ust=1488540443666000&amp;usg=AFQjCNEwQ64uDmbHhyqyizENtwV9qbu52A">public hotspots</a></span><span>.</span></p>
+					<p><span>Using</span> <span><a href="http://ieee-security.org/TC/SPW2016/MoST/slides/s2/t1.pdf">captive Wi-Fi</a></span><span>&nbsp;is a common practice in many places, especially when using</span> <span><a href="http://qurinet.ucdavis.edu/pubs/conf/Ningning_INFOCOM13.pdf">public hotspots</a></span><span>.</span></p>
 				</td>
 			</tr>
 
@@ -109,7 +109,7 @@ At this point, it is obvious that our browsing history is accessible to our brow
 				</td>
 
 				<td colspan="1" rowspan="1">
-					<p><span>ISPs can seek many insights,</span> <span><a href="https://www.google.com/url?q=https://www.teamupturn.com/reports/2016/what-isps-can-see&amp;sa=D&amp;ust=1488540443669000&amp;usg=AFQjCNGNZsGWm3RQdTMrff_Z4_BS7hKdJQ">even when the traffic is encrypted</a></span><span>. Have a look at &ldquo;</span><span><a href="https://www.google.com/url?q=https://events.ccc.de/congress/2010/Fahrplan/attachments/1791_27C3-JeroenMassar-HowTheInternetSeesYou.pdf&amp;sa=D&amp;ust=1488540443670000&amp;usg=AFQjCNFvtSIgJEpf1mYq2AvlcY8BW2th6A">How Internet sees you</a></span><span>&rdquo;</span></p>
+					<p><span>ISPs can seek many insights,</span> <span><a href=" https://www.teamupturn.com/reports/2016/what-isps-can-see">even when the traffic is encrypted</a></span><span>. Have a look at &ldquo;</span><span><a href="https://events.ccc.de/congress/2010/Fahrplan/attachments/1791_27C3-JeroenMassar-HowTheInternetSeesYou.pdf">How Internet sees you</a></span><span>&rdquo;</span></p>
 
 
 					<p class="c1 c11"><span></span>
@@ -150,7 +150,7 @@ At this point, it is obvious that our browsing history is accessible to our brow
 
 			<tr>
 				<td colspan="1" rowspan="1">
-					<p><span>Cookies ( tracking, advertising and profiling companies)</span>
+					<p><span>Cookies (tracking, advertising and profiling companies)</span>
 					</p>
 				</td>
 
@@ -293,9 +293,11 @@ How about my next travel destination? Can it be predicted from my web history? P
 
 As the Figure 11 represents, I might have visited the websites which contained those locations which could probably be my next travel destination. Even without doing any fancy machine learning processing, I could attest that these were actually some of the places that I am planning to visit! 
 
-As  mentioned before, if you are using HTTPs, the ISPs can see the full URL path in clear text. Along with them, the websites that you visit will obviously have to know that full path to deliver you exactly what you are looking for.  
+As  mentioned before, if you are using HTTP, the ISPs can see the full URL path in clear text. Along with them, the websites that you visit will obviously have to know that full path to deliver you exactly what you are looking for.  
 
-If you have searched for “vegetarian restaurants in Brussels”in Google , your Google query URL will be [https://www.google.be/search?q=vegetarian+restaurant+brussel](https://www.google.be/search?q=vegetarian+restaurant+brussel). Assuming that the ISPs will use the keywords you are searching to profile you again, it makes their job of deriving the adwords for your future targeted advertisements much more easier.
+If you have searched for “vegetarian restaurants in Brussels”in Google , your Google query URL will be [http://www.google.be/search?q=vegetarian+restaurant+brussel](https://www.google.be/search?q=vegetarian+restaurant+brussel). Assuming that the ISPs will use the keywords you are searching to profile you again, it makes their job of deriving the adwords for your future targeted advertisements much more easier. 
+
+<i>Please note that Google auto-redirects HTTP traffic to HTTPS, however, for the sake of simplicity let us ignore that. Instead, there are many malicious things (like "man-in-the-middle") that an ISPs can do in cooperation with advertisers to know more information even from the HTTPS traffic.</i>
 
 ![Figure 12: Word frequency graph of Google search keywords]({{site.baseurl}}/assets/images/11_query_stats_2.png)
 <p align="center">
@@ -306,7 +308,8 @@ Figure 12 represents the most searched words by me on Google. From this graph, i
 
 So, at this point, the ISPs know what makes you highly likely to click an advertisement link!
 
-##Pseudo social sphere
+## Pseudo social sphere
+
 Unlike the metadata related to emails and phone call logs, the browsing history can be treated as one-dimensional metadata. Because, it is just the metadata about what you have browsed and it does not contain the influence of other people’s interaction with you. On the other hand, email and phone call metadata contains the interaction you have done with others, along with the interactions done by others with you. 
 
 However, it is possible to seek insight on your affinity towards the people within your social circle using the one-dimensional browsing history metadata. For example, you will visit your close friends social media profile more frequently than you visit your ex-colleague’s profile whom you know from first job. You might have visited the profile of your friend from the university more recently and frequently, than you visit your friend from high school. By capturing the number of visit counts and frecency (frequency + recency) from your browsing history, it is possible to reconstruct a pseudo social sphere (figure 13) , and thereby converting the browsing history to a two-dimensional data source.
