@@ -19,7 +19,7 @@ For the sake of understanding what I am trying to achieve, here is the minimalis
 
 * I have multiple bibliography files.
 * I want to display the bibilographies in different sections.
-* I am using Ubuntu 16.04 (which [limited](https://askubuntu.com/questions/761985/textlive-bibtex-extra-and-biber-conflict) my options to just ```multibib``` in spite of the claim that the bug was fixed.) and TexMaker (which gices errors while comiling when you have multibib. So, as always GUI is not an option for me.)
+* I am using Ubuntu 16.04 (which [limited](https://askubuntu.com/questions/761985/textlive-bibtex-extra-and-biber-conflict) my options to just ```multibib``` in spite of the claim that the bug was fixed.) and TexMaker (which gives errors while compiling when you have multibib. So, as always GUI is not an option for me.)
 
 ### Minimal Working Example (MWE)
 
