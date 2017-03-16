@@ -328,13 +328,14 @@ I built a small/ naive tool to replicate the similar graphs shown in this articl
 
 Whether or not the culprit ISPs as depicted in this article evade your privacy by doing all these analytics, it is indeed important to realize the power of metadata and your contribution to big data processing in the wild. Since privacy of the metadata can not be protected by merely encrypting it, we need stronger policies to defend our digital rights.
 
-The tool which I call as Haukana metadata can be downloaded from [here](https://github.com/sidtechnical/hakuna-metadata-1). Once you download it, follow these instruction:
+The tool which I call as Haukana metadata can be downloaded from [**here**](https://github.com/sidtechnical/hakuna-metadata-1). Once you download it, follow these instruction:
 -	Unzip the folder a  right click on a blank area  Click on “open in terminal”.
 -	In the terminal, type **sh requirements** and press **Enter**.
 -	This will download all the necessary modules needed to run the tool.
 -	Once it is completed,  type **python tool.py** and press **Enter**.
 -	It will take some time to process your browsing history. So, be patient until it opens a new browser tab as a result. Everything will be processed within your computer and hence, the tool does not send the data anywhere.
 -	The newly opened tab will contain some instructions and links to the visualizations derived from your browsing history.
+-   Please note that these graphs are interactive as shown [here](https://github.com/sidtechnical/sidtechnical.github.io/blob/master/assets/images/bh_heatmap.gif?raw=true), [here](https://github.com/sidtechnical/sidtechnical.github.io/blob/master/assets/images/bh_anamoly.gif?raw=true), [here](https://github.com/sidtechnical/sidtechnical.github.io/blob/master/assets/images/bh_search.gif?raw=true) or [here](https://github.com/sidtechnical/sidtechnical.github.io/blob/master/assets/images/bh_soccirc.gif?raw=true)
 -	It is important to note that some of the functionalities may not work as it is shown in this article, mainly because there are no reference data about browsing history. So, I had to build it based on my own browsing history.
 -	It goes without saying that the code is open source, and any contribution to the code to improvise and add more functionalities are more than welcome. Even otherwise, in case of issues, do not hesitate to contact me, either by sending an email with subject line “Hakuna Metadata” to sidtechnical@gmail.com or by raising an issue on Github.
 
