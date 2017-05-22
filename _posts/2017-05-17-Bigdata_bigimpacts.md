@@ -24,8 +24,6 @@ Here is a bizarre but relevant example.
 
 He is collecting data in the granularity of minutes, and analyzing it through Big Data in the hope of shaping the future of health care. Just like Prof. Smarr, several computer scientists have started collaborating with medical researchers to put the power of Big Data to save lives. For instance, Mount Sinai Medical Center in the USA is using Big Data technology to analyze the entire genome sequences of bacteria to develop antibiotics, which otherwise could have taken ages to complete.
 
-![Is big data getting big?]({{site.baseurl}}/assets/images/bigdata2.gif =100x20 "The GIF is from GIPHY")
-
 Applications of Big Data can be seen as the building blocks of ‘smart’ cities to manage water resources, reduce traffic jams and improve public safety. The Miami-Dade County Parks department is expecting to save $1 million this year by reducing water waste through the identification and repair of leaky, corroded water pipes -- all using the power of Big Data. This is an example of the innovative trends of solving old school problems, with added financial gain that community can avail with the help of modern technologies.
 
 The World Wild Fund for Nature (WWF) is harnessing the power of Big Data to protect the endangered wildlife, especially tigers. Satellite images for aerial surveillance of protected forests are combined with animal tracking collars and other sensors to deduce real-time insights on the health conditions of tigers and save them from other predators including humans. In India alone, for the first time in last four years, the number of tigers have increased by 30% after the adaptation of these tactics.
