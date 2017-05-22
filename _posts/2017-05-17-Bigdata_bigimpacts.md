@@ -6,7 +6,7 @@ categories:
 published: true
 ---
 
-![is big data getting big](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "The GIF is from GIPHY https://giphy.com/gifs/80s-video-youtube-ize2r20ICQONq")
+![is big data getting big]({{site.baseurl}}/assets/images/bigdata.gif "The GIF is from GIPHY https://giphy.com/gifs/80s-video-youtube-ize2r20ICQONq")
 
 With the proliferation of technologies and their applications in our day-to-day lives, we have been able to overcome the constraints of time and space. Today, one can instantly talk to their loved ones sitting thousands of miles away or take the next flight to meet them in person -- all in a jiffy! With almost everyone using the Internet and wireless communication, we can safely claim that the humankind is now almost entirely connected,  bringing a significant sociocultural change. 
 
