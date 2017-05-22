@@ -6,6 +6,8 @@ categories:
 published: true
 ---
 
+![is big data getting big](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "The GIF is from GIPHY https://giphy.com/gifs/80s-video-youtube-ize2r20ICQONq")
+
 With the proliferation of technologies and their applications in our day-to-day lives, we have been able to overcome the constraints of time and space. Today, one can instantly talk to their loved ones sitting thousands of miles away or take the next flight to meet them in person -- all in a jiffy! With almost everyone using the Internet and wireless communication, we can safely claim that the humankind is now almost entirely connected,  bringing a significant sociocultural change. 
 
 Technology has also changed the way we understand other cultures, meet different people, communicate and maintain relationships with others. As a victory of this digital revolution that is  transforming us into an advanced networked society, the 17th of May every year is celebrated as the ‘World Telecommunication and Information Society Day’.
@@ -50,4 +52,4 @@ Of course, these are not unrealistic examples, but a ground reality in today’s
 
 Big Data is undoubtedly a powerful tool that has the potential to shape every part of our society from health care and education to urban planning and protecting the environment. But like every other innovation of science, it has its dark side. Striking a fine balance between the two sides of the argument is what we need to strive for. Putting in the right checks and balances for quality of data, its sources, access control and anonymizing it to protect individual privacy, holds the key in realizing the complete potential of this disruptive technology and creating a an impact for the society at large. 
 
-<font style:"font-size:small;"> *P.S: This post was crossposted as it is from my article for [Research Matters](https://researchmatters.in/), and here is a link to the [original post](https://researchmatters.in/article/creating-big-impact-big-data). A variant of the same write-up was also published in a [blog post](https://edri.org/big-data-for-big-impact-but-not-only-a-positive-one/) of **European Digital Rights (EDRI)** as a collective effort of ranting the voice of civil society organizations about big data and its implications on society.*</font>
+*P.S: This post was crossposted as it is from my article for [Research Matters](https://researchmatters.in/), and here is a link to the [original post](https://researchmatters.in/article/creating-big-impact-big-data). A variant of the same write-up was also published in a [blog post](https://edri.org/big-data-for-big-impact-but-not-only-a-positive-one/) of **European Digital Rights (EDRI)** as a collective effort of ranting the voice of civil society organizations about big data and its implications on society.*
