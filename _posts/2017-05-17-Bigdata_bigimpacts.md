@@ -6,7 +6,7 @@ categories:
 published: true
 ---
 
-![is big data getting big]({{site.baseurl}}/assets/images/bigdata.gif "The GIF is from GIPHY https://giphy.com/gifs/80s-video-youtube-ize2r20ICQONq")
+![Is big data getting big?]({{site.baseurl}}/assets/images/bigdata.gif "The GIF is from GIPHY https://giphy.com/gifs/80s-video-youtube-ize2r20ICQONq")
 
 With the proliferation of technologies and their applications in our day-to-day lives, we have been able to overcome the constraints of time and space. Today, one can instantly talk to their loved ones sitting thousands of miles away or take the next flight to meet them in person -- all in a jiffy! With almost everyone using the Internet and wireless communication, we can safely claim that the humankind is now almost entirely connected,  bringing a significant sociocultural change. 
 
@@ -23,6 +23,8 @@ Here is a bizarre but relevant example.
 > “Have you ever figured how information-rich your stool is?” -- asks Prof. Larry Smarr, a pioneer astrophysicist turned computer scientist, who is now working on a project to explore his quantified self by continuously collecting the data about every function of his body. “There are about 100 billion bacteria per gram. Each bacterium has DNA whose length is typically one to 10 megabases—call it 1 million bytes of information. This means human stool has a data capacity of 100,000 terabytes of information stored per gram. That’s many orders of magnitude more information density than, say, in a chip in your smartphone or your personal computer. So your stool is far more interesting than a computer”
 
 He is collecting data in the granularity of minutes, and analyzing it through Big Data in the hope of shaping the future of health care. Just like Prof. Smarr, several computer scientists have started collaborating with medical researchers to put the power of Big Data to save lives. For instance, Mount Sinai Medical Center in the USA is using Big Data technology to analyze the entire genome sequences of bacteria to develop antibiotics, which otherwise could have taken ages to complete.
+
+![Is big data getting big?]({{site.baseurl}}/assets/images/bigdata2.gif "The GIF is from GIPHY")
 
 Applications of Big Data can be seen as the building blocks of ‘smart’ cities to manage water resources, reduce traffic jams and improve public safety. The Miami-Dade County Parks department is expecting to save $1 million this year by reducing water waste through the identification and repair of leaky, corroded water pipes -- all using the power of Big Data. This is an example of the innovative trends of solving old school problems, with added financial gain that community can avail with the help of modern technologies.
 
