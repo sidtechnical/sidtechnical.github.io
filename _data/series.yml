@@ -1,0 +1,24 @@
+- name: Security
+  desc: |
+    Thoughts (reflections) on securing or breaking a system, including my own work
+  tag_name: security
+
+- name: Privacy
+  desc: |
+    Thoughts (reflections) on leak or protection of user or data privacy
+  tag_name: privacy
+
+- name: Internet Freedom and Digital Rights
+  desc: |
+    A rant about a healthy and open Internet for all
+  tag_name: healthy_internet
+
+- name: Event experience
+  desc: |
+    Lessons and experiences of attending events of all kinds
+  tag_name: reflections
+
+- name: Tools and tricks
+  desc: |
+    Suggestions on using different tools for day-to-day digital activities
+  tag_name: tool_tips
