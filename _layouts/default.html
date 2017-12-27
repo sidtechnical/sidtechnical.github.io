@@ -5,34 +5,36 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  <meta name="google-site-verification" content="olAZsKMDlDG1JZxIeYylfmKdhMEDiXFtQZlsaKlA_Oo" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.data.theme.name }} - {{ page.title }}</title>
-  <meta name="author" content="{{ site.data.theme.name }}" />
-  <meta name="description" content="The blog of {{ site.data.theme.name }}" />
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+  <title>Sid Rao - {{ page.title }}</title>
+  <meta name="author" content="Sid Rao" />
+  <meta name="description" content="blog on various aspects of technology (FOSS, security, privacy) and society (open web, digital freedom)" />
+  
+  <link rel="canonical" href="http://www.privacypies.org{{ page.url | replace:'index.html','' }}" />
 
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="/favicon.gif">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
+  <link href="//fonts.googleapis.com/css?family=Nunito:400,700,300|Varela+Round" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="/assets/css/all.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+  <link rel="shortcut icon" href="/static/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="Sid Rao's Blog" href="{{site.url}}/atom.xml" />
+
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/filamentgroup/tablesaw/master/dist/tablesaw.css">
+  <script src="https://raw.githubusercontent.com/filamentgroup/tablesaw/master/dist/tablesaw.js"></script>
+  <script src="https://raw.githubusercontent.com/filamentgroup/tablesaw/master/dist/tablesaw-init.js"></script>
+  <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+
+  {% if site.github %}
+    <link rel="stylesheet" href="/css/site.css?sha={{ site.github.build_revision }}">
+  {% else %}
+    <link rel="stylesheet" href="/css/site.css">
+  {% endif %}
 </head>
 <body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {% include sidebar.html %}
-    </div>
+  <section>
+    {{ content }}
+  </section>
 
-    <div class="eleven columns content">
-      {{ content }}
-
-      <div class="footer">
-        {% include footer.html %}
-      </div>
-    </div>
-  </div>
-
-{% include analytics.html %}
 </body>
 </html>

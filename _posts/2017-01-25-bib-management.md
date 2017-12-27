@@ -3,7 +3,8 @@ layout: post
 title:  Bibliography management from multiple resources using multibib.
 categories: 
   - blog
-  - latex, writing
+tags:
+  - tool_tips
 published: true
 ---
 

@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Call for participation -NetRadar-India project
+title: 'Call for participation: NetRadar-India project'
 categories:
-- blog
 - projects
+tags:
+- healthy_internet
 ---
 
 ### **TL;DR**:
 **NetRadar-India** is a crowdsourced user study, to analyze the technology dependent deficiencies in the mobile network 
 infrastructure. To know more about how to participate, please visit our [website](http://netradar-india.github.io/).
-
----
 
 ### **About:**
 Internet connectivity around the world is far from uniform, especially when Internet is emerging as one of the fundamental 

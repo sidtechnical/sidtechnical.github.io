@@ -3,22 +3,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>The blog of {{ site.data.theme.name }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}"/>
+ <title>Sid Rao's Blog</title>
+ <link href="http://www.privacypies.org/atom.xml" rel="self"/>
+ <link href="http:/www.privacypies.org"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <id>http://www.privacypies.org/</id>
  <author>
-   <name>{{ site.data.theme.name }}</name>
-   <email>{{ site.data.theme.email }}</email>
+   <name>Sid Rao</name>
+   <email>sidtechnical@gmail.com</email>
+   <url>www.privacypies.org</url>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{site.url}}{{ post.url }}"/>
+   <link href="http://mdswanson.com{{ post.url }}"/>
+   <published>{{ post.date | date_to_xmlschema }}</published>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
+   <id>http://sidtechnical.github.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

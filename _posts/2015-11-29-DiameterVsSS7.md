@@ -3,7 +3,8 @@ layout: post
 title: Diameter protocol replacing SS7
 categories: 
   - blog
-  - telcosec
+tags:
+- security
 published: true
 ---
 
