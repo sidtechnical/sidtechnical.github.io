@@ -7,7 +7,7 @@ title: Blog Posts
 <body>
   
 <article>
-    <p>Hi, I am <b>Sid</b>. Welcome to my <a href="/about/">blog</a>!</p>
+    <p>Hi, I am <b>Sid Rao</b>. Welcome to my <a href="/about/">blog</a>!</p>
     <p>Primary purpose of this blog is to reflect the observation and opinions of my academic journey. However, I try to rant about the things that matter to me, such as Internet freedom and digital rights. </p>
     <p>This blog is <a target="_blank" href="https://github.com/sidtechnical/sidtechnical.github.io">open source</a>. Factual errors or spelling/grammar corrections are always welcome (and much appreciated) via pull requests.</p>
 
