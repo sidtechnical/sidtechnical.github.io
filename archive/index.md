@@ -14,7 +14,7 @@ Even though I intend to blog regularly, somehow I get busy with other important 
 
 Since {{ site.posts.last.date | date: "%B %d, %Y" }}, I've written {{ totalwords }}. I hope you've enjoyed reading at least some of those words. My favorite posts are **bolded** below.
 
-An archive of these blog posts, categorizied based on their tags is also available [**HERE**][categories].
+An archive of these blog posts, categorizied based on their tags is also available [**here**][categories].
 
 [categories]: /categories/
 
