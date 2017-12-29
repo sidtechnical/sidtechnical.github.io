@@ -6,12 +6,10 @@ categories:
 tags:
   - security
 favorite: true
-published: false
+published: true
 ---
 
 <i class="fa fa-quote-left fa-4x fa-pull-left fa-border" aria-hidden="true"></i> ***Disclaimer:** <font style="font-size:medium" color="#000066">Though I intend to cover all the major security breaches of 2017, it is nearly impossible to  make an exhaustive list of all of them. Even if it is possible, it won't be suitable for a compressed blog post like this. It is very much possible that I might have missed a "must-have" breach because of the 'Internet filter bubble' that we all live in. Please consider bringing it to my notice!</font>*
-
-Security breaches are one of the most recurring columns of most of the news media, because they happen every year, every now and then.  The year 2017 is no exception to that!
 
 <i class="fa fa-clock-o" aria-hidden="true"></i> **A brief recap of 2016**: On the offensive side, attacks like [HEIST][heist], [DROWN][drown], [Sweet32][sweet32] and [Dirty C0W][dirtyc0w] got media attention that they deserved. On the defensive side, Transport Layer Security (TLS) 1.3 [design][tls13_spec] was finalized, which includs the standardization of elliptic curves - Curve25519 and Curve448 ([RFC 7748][rfc7748]) to ensure a high level of practical security. 
 
@@ -23,22 +21,30 @@ However, 2017 is almost over now, and yet TLS 1.3 is not in browsers. There is n
 
 # Fast-forward to 2017
 
-While Some of them could expose previously unknown vulnerabilities or intorduce a new bug, many of the rest are just reusing well-known vulnerabilities on a different attack surfaces. Reasons could range from inefficient threat models and anlysis to incorrect implementions while bringing theoretical security to practice. Irrespective of the reasoning, public disclosures of the security breaches help us learn from the mistakes and build more secure systems.
+Security breaches are one of the most recurring columns of most of the news media, because they happen every year, every now and then.  The year 2017 is no exception to that!
+
+While some of them could expose previously unknown vulnerabilities or intorduce a new bug, many of the rest are just reusing well-known vulnerabilities on a different attack surfaces. Reasons could range from inefficient threat models and anlysis to incorrect implementions while bringing theoretical security to practice. Irrespective of the reasoning, public disclosures of the security breaches help us learn from the mistakes and build more secure systems.
 
 ## Research: Vulnerabilities 
 
-- **[SHAttered][SHAttered]** - (Practical) collision of SHA-1 found: We reliy on the cryptographic hash functions in our day-to-day digital lives. For example, those hashes are used for digital signatures or while securely browsing over HTTPS. 
+**1. [SHAttered][SHAttered] - (Practical) collision of SHA-1:** <span data-balloon="a mathematical one-way function which converts (represents) any arbitary size of data into a fixed-size bit string" data-balloon-pos="up">Cryptographic hashes</span> form one of the backbones of modern information security, because many authentication (e.g. digital signatures or message authentication codes) rely on it. These hashes must ensure <span data-balloon="deterministic, fast one-way only (while finding the hash), infeasiable to reverse" data-balloon-pos="up">several properties</span>, out of which **collision-resistance** is one of the most fragile points.
+In theory, the only way to find a collision is by <span data-balloon="exhaustively list every possible message space (data), followed by finding a matching hash" data-balloon-pos="up">brute-force</span>, however, thishas been tampered every time the computer architecture gets improvised, or when a clever way of reducing the complexity is discovered. Ever since, the theoretical collisions were found for SHA-1 ([2005][2005_shattered], [2011][2011_shattered]), it has been depricated. However, being one of the major hashing algorithms, it is still used in many legacy systems including up to [10% of credit card payment systems][SHA1_creditcard]. 
 
-https://arstechnica.com/information-technology/2017/02/watershed-sha1-collision-just-broke-the-webkit-repository-others-may-follow/
-http://blogs.collab.net/subversion/subversion-sha1-collision-problem-statement-prevention-remediation-options
-https://security.stackexchange.com/a/152176/57069
-https://www.cylance.com/en_us/blog/how-sha-1-collisions-can-affect-us-in-real-world-attacks.html
+In Feb 2017, researcher from Google and CWI Amsterdam together found the **first ever practical collision** (based on the previous [theoretical work][2011_shattered]) using highly efficient GPUs. Given the fact that the cost of such collision (75-150K USD), it is out of reach for individual hackers, unless they are part of nation-state hacking regimes. However, this breakthrough attack has affected real word applications such as code repositories (e.g. [webkit][sha1_webkit], [svn][SHA1_svn]) and [payment systems][sha1_payment].
+
+<i class="fa fa-book" aria-hidden="true"> [SHAttered][SHAttered], their [paper][SHAttered_paper], and possibly [this <i class="fa fa-stack-overflow" aria-hidden="true"> discussion</i>][SHAttered_SO].
+
+---
 
 
-- **[KRACK attack][KRACK] and [DUHK][DUHK]**
-- **ROCA**: First origin of RSA public keys [1][key_origin] , [tool][key_origin_tool].Then [ROCA][ROCA] refer to [imapct][ROCA_impact], [ROCA TEST1][ROCA_test1] or [ROCA TEST2][ROCA_test2]  ACM CCS conference, received Real-World Impact Award 
+**2. [KRACK attack][KRACK] **
 
-[SHAttered]:https://shattered.io/
+**3. ROCA**: First origin of RSA public keys [1][key_origin] , [tool][key_origin_tool].Then [ROCA][ROCA] refer to [imapct][ROCA_impact], [ROCA TEST1][ROCA_test1] or [ROCA TEST2][ROCA_test2]  ACM CCS conference, received Real-World Impact Award 
+
+
+
+[DUHK][DUHK]
+
 [KRACK]: https://www.krackattacks.com/
 [DUHK]: https://duhkattack.com/
 [key_origin]:[https://www.usenix.org/node/197198]
@@ -87,6 +93,9 @@ https://www.cylance.com/en_us/blog/how-sha-1-collisions-can-affect-us-in-real-wo
 - http://www.zdnet.com/pictures/biggest-hacks-leaks-and-data-breaches-2017/
 - https://www.eff.org/deeplinks/2017/12/2017-year-nation-state-hacking
 
+
+<!---2016 recap -->
+
 [heist]: https://www.blackhat.com/docs/us-16/materials/us-16-VanGoethem-HEIST-HTTP-Encrypted-Information-Can-Be-Stolen-Through-TCP-Windows-wp.pdf
 [drown]: https://drownattack.com/
 [sweet32]: https://sweet32.info/#about
@@ -96,3 +105,15 @@ https://www.cylance.com/en_us/blog/how-sha-1-collisions-can-affect-us-in-real-wo
 [tls13_due]:https://blog.cloudflare.com/why-tls-1-3-isnt-in-browsers-yet/
 [eff2016]:https://www.eff.org/deeplinks/2016/12/what-happened-crypto-2016
 [tls13_test]:https://tls13.mitm.watch/
+
+<!---SHAttered -->
+
+[SHAttered]:https://shattered.io/
+[2005_shattered]:https://link.springer.com/chapter/10.1007%2F11535218_2
+[2011_shattered]:https://link.springer.com/chapter/10.1007%2F978-3-642-38348-9_15
+[SHA1_creditcard]: https://threatpost.com/sha-1-end-times-have-arrived/123061/
+[SHA1_svn]: http://blogs.collab.net/subversion/subversion-sha1-collision-problem-statement-prevention-remediation-options
+[sha1_webkit]: https://arstechnica.com/information-technology/2017/02/watershed-sha1-collision-just-broke-the-webkit-repository-others-may-follow/
+[sha1_payment]: https://blog.pcisecuritystandards.org/how-the-sha-1-collision-impacts-security-of-payments
+[SHAttered_paper]:https://shattered.io/static/shattered.pdf
+[SHAttered_SO]: https://security.stackexchange.com/a/152176/57069
