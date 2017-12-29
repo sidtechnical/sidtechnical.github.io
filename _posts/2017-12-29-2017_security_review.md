@@ -6,7 +6,7 @@ categories:
 tags:
   - security
 favorite: true
-published: true
+published: false
 ---
 
 <i class="fa fa-quote-left fa-4x fa-pull-left fa-border" aria-hidden="true"></i> ***Disclaimer:** <font style="font-size:medium" color="#000066">Though I intend to cover all the major security breaches of 2017, it is nearly impossible to  make an exhaustive list of all of them. Even if it is possible, it won't be suitable for a compressed blog post like this. It is very much possible that I might have missed a "must-have" breach because of the 'Internet filter bubble' that we all live in. Please consider bringing it to my notice!</font>*
