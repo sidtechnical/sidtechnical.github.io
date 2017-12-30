@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'Security vs. the Internet: 2017 in Review'
+title:  'Security recap: 2017 in Review'
 categories: 
   - blog
 tags:
