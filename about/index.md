@@ -21,9 +21,10 @@ That's it! I thought of using privacy pie as my next (un)cool handle. In additio
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i> 
 > Since this blog is about privacy (protection or violation), the **privacy pie** is going to give out recipes to make pies (in the sense of apple pie), so why not name it as **"Privacy Pies"** - the recipes to protect your privacy! 
 
-<ul class="fa-ul">
-<li style="color: #3333ff;"><i class="fa-li fa fa-spinner fa-spin"></i> I have a cool custom printed (by my activist friends) t-shirt which says "Privacy Pie" and contains a funny recipe of that pie.</li>
-</ul>
+<a href="/static/p_pie_t_shirt.jpg"><img src="/static/p_pie_t_shirt.jpg" width="200" height="200" alt="Privacy Pie"></a>
+<p align="center">
+    <em>This cool custom "printed" t-shirt (gifted by my activist friends) with a funny recipe of Privacy Pie.</em>
+</p>
 
 # Contact me
 

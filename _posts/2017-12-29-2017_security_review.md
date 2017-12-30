@@ -68,9 +68,7 @@ Once the private key is derives, it can be misused impersonate of a legitimate o
 
 ---
 
-**2. [ShadowBrokers][shad_bro] -Bro(ker)s behind the shadow:**
-
-An anonymous hacking group, self-named as ShadowBrokers came into existance in [2016][Shad_bro_16] by announcing an auction of what it claimed as ["cyber weapons made by the NSA"][Shad_bro_16_2]. 
+**2. [ShadowBrokers][shad_bro] -Bro(ker)s behind the shadow:** An anonymous hacking group, self-named as ShadowBrokers came into existance in [2016][Shad_bro_16] by announcing an auction of what it claimed as ["cyber weapons made by the NSA"][Shad_bro_16_2]. 
 
 
 They continued in 2017 as well with their public embarrassing of the NSA by mocking its intelligence-gathering capabilities. They have exposed major vulnerabilities in Cisco routers, Microsoft Windows (e.g. e-mail client bugs and privilege escalation exploits) and other major firewall products. Furthermore, they allegedly gave the authors of the **WannaCry ransomware** the exploit they needed to infect a large number of computers. Similar to that of the CIA's tools exposed in Vault7, the leaks from shadowbrokers include executables used by the NSA to bypass for antivirus programs, disguise techniques and other zero-days.From August 2016 to April 2017, ShadowBrokers have leaked different arsenals with humurous names - _Equation Group Cyber Weapons Auction - Invitation_, _TrickOrTreat_, _Black Friday / Cyber Monday Sale_, _Don't Forget Your Base_ and _Lost in Translation_.
@@ -93,18 +91,50 @@ Whether or not Wikileaks dumping emails on public domains [passes Public Interes
 ---
 
 ## Related to corporates
- - [Cloudbleed][cloudbleed], [incedent report][cb_incident], [impact][cb_impact]
- - [Equifax][equifax]
- - [celebrite1][cellebrite 1] and [celebrite2][cellebrite 2]
+
+**1. [Cloudbleed][cb_incident] - Leak in the memory:** Cloudfare, Inc.<span data-balloon-length="large" data-balloon="A U.S. company that provides a content delivery network, DDoS mitigation, Internet security services and distributed domain name server services, sitting between the visitor and the Cloudflare user's hosting provider, acting as a reverse proxy for websites." data-balloon-pos="up"><sup><i class="fa fa-wikipedia-w" aria-hidden="true"></i></sup></span> provides different kinds of service to companies like Uber, OK Cupid, and Fitbit, who transport senstive user information (including Personally Identifiable Information) via Cloudfare. In Feb 2017, *Tavis Ormandy* - a security researcher from Project Zero team, noticed a serious issue in Cloudfare's proxy servers which was spilling sensitive data belonging to arbitary users of companies (including Uber, Ok Cupid and Fitbit) in spite the data being protected by HTTPS.
+
+
+Cloudfare parses the HTML pages of their clients and modify specific HTML tags **on the fly**. For example, to rewrite `http://` links of a HTML page to `https://`, or obfuscate email addresses for privacy reasons. Earlier, these parsing task was done using an open source software called [Regal][regal], and in conjunction with that, an year before this bug was reported, Cloudfare started using another parser called cf-html. Both cf-html and Ragel parsers were implemented in such a way that one of them would parse and modify **buffers** (blocks of memory) containing specific HTML tags before passing it on to the other parser. Due to an implementation error by Cloudfare while writing the Regal code, a well-known security vulnerability called <span data-balloon-length="large" data-balloon="Anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations." data-balloon-pos="up">**buffer overflow**<sup><i class="fa fa-wikipedia-w" aria-hidden="true"></i></sup></span> would spill information of arbitary users when webpages had **a particular combination of HTML tags**. While frankly admitting this [incedent][cb_incident] and reacting quickly to minimize the [impact][cb_impact], "_Only a very small portion of web traffic was affected by this bug_" - says John Graham-Cumming, the CTO of Cloudflare.
+
+<i class="fa fa-book" aria-hidden="true"></i> The [bug report][cd_bug_report] by Tavis, Cloudfare's [incident response][cb_incident] and the [article][cloudbleed] by The Register.
+
+---
+
+
+**2. [Equifax][eq_announcement] - the SSN spiller:** Credit card giant Equifax faced a massive data breach in September 2017 where sensitive information such as names, birthdates, addresses, driver’s license numbers, as well as Social Security Numbers 143 million consumers were exposed to the hackers. Due to its sensitivity [the company][eq_sec] as well the [FTC][equifax_FTC] tried to take measures to identify and lessen the harm. However, seems like it was too late. 
+
+This blunder was due to [failure of Equifax to patch][struts_response] an earlier reported exploit in an open source software called **Apache Struts**. While the [exploit is almost 9 years old][equifax_qz], a security patch was released by Apache in March 2017. This exploit allowed the hackers to [misuse][struts_bug] the **file upload** functionality to **remotely execute malicious codes on the server**.
+
+<i class="fa fa-book" aria-hidden="true"></i> [Announcement][eq_announcement] by Equifax, their [online tool][eq_sec] and Apache's [reponse][struts_response].
+
+---
+
+**3. [Cellebrite hack][cb1] - (bad) Hackers got hacked:** 
+
+- [celebrite1][cb1] and [celebrite2][cb2]
+ 
+
+
+
+<i class="fa fa-book" aria-hidden="true"></i>  [**Phone Crackers**][mb_series] series by *Joseph Cox*, Motherboard .
+
+
+[cb1]: https://motherboard.vice.com/en_us/article/3daywj/hacker-steals-900-gb-of-cellebrite-data 
+[cb2]:https://motherboard.vice.com/en_us/article/5355ga/hacker-dumps-ios-cracking-tools-allegedly-stolen-from-cellebrite
+[mb_series]:[https://motherboard.vice.com/en_us/topic/phone-crackers]
+[mb_bank]: https://motherboard.vice.com/en_us/article/ezp9kp/banks-use-cellebrite-phone-cracking-tech-too
+[mb_regime]: https://motherboard.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests
+[mb_police]: https://motherboard.vice.com/en_us/article/aekqkj/us-state-police-have-spent-millions-on-israeli-phone-cracking-tech-cellebrite
+
+---
+
  - Others such as Virgin America, Deloitte, as usual Yahoo, Verifone
 
 
-[cloudbleed]: https://www.theregister.co.uk/2017/02/24/cloudbleed_buffer_overflow_bug_spaffs_personal_data/
-[cb_incident]: https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/
-[cb_impact]: https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/
-[equifax]: https://www.consumer.ftc.gov/blog/2017/09/equifax-data-breach-what-do
-[cellebrite 1]: https://motherboard.vice.com/en_us/article/3daywj/hacker-steals-900-gb-of-cellebrite-data 
-[cellebrite 2]:https://motherboard.vice.com/en_us/article/5355ga/hacker-dumps-ios-cracking-tools-allegedly-stolen-from-cellebrite
+
+
+
 
 
 ## Malwares
@@ -221,6 +251,24 @@ Whether or not Wikileaks dumping emails on public domains [passes Public Interes
 [voters_exposed]:[https://www.wired.com/story/voter-records-exposed-database/]
 [server_misconf]:https://www.upguard.com/breaches/the-rnc-files
 [bdd_campaign]: http://adage.com/article/campaign-trail/trump-camp-s-inexperience-set-stage-rnc-data-win/307105/
+
+
+<!-- Cloudbleed -->
+
+[cb_incident]: https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/
+[cb_impact]: https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/
+[regal]: https://www.colm.net/open-source/ragel/
+[cloudbleed]: https://www.theregister.co.uk/2017/02/24/cloudbleed_buffer_overflow_bug_spaffs_personal_data/
+[cd_bug_report]: https://bugs.chromium.org/p/project-zero/issues/detail?id=1139
+
+<!-- Equifax hack -->
+
+[eq_announcement]: https://investor.equifax.com/news-and-events/news/2017/09-07-2017-213000628
+[equifax_qz]:https://qz.com/1073221/the-hackers-who-broke-into-equifax-exploited-a-nine-year-old-security-flaw/
+[equifax_FTC]: https://www.consumer.ftc.gov/blog/2017/09/equifax-data-breach-what-do
+[eq_sec]:https://www.equifaxsecurity2017.com/
+[struts_response]: https://blogs.apache.org/foundation/entry/media-alert-the-apache-software
+[struts_bug]: http://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html
 
 
 
