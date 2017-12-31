@@ -25,7 +25,7 @@ Security breaches are one of the most recurring columns of most of the news medi
 
 While some of them could expose previously unknown vulnerabilities or intorduce a new bug, many of the rest are just reusing well-known vulnerabilities on a different attack surfaces. Reasons could range from inefficient threat models and anlysis to incorrect implementions while bringing theoretical security to practice. Irrespective of the reasoning, public disclosures of the security breaches help us learn from the mistakes and build more secure systems.
 
-## Research: Vulnerabilities 
+## Research: New vulnerabilities 
 
 **1. [SHAttered][SHAttered] - (Practical) collision of SHA-1:** <span data-balloon="a mathematical one-way function which converts (represents) any arbitary size of data into a fixed-size bit string" data-balloon-pos="up">Cryptographic hashes</span> form one of the backbones of modern information security, because many authentication (e.g. digital signatures or message authentication codes) rely on it. These hashes must ensure <span data-balloon="deterministic, fast one-way only (while finding the hash), infeasiable to reverse" data-balloon-pos="up">several properties</span>, out of which **collision-resistance** is one of the most fragile points.
 In theory, the only way to find a collision is by <span data-balloon="exhaustively list every possible message space (data), followed by finding a matching hash" data-balloon-pos="up">brute-force</span>, however, thishas been tampered every time the computer architecture gets improvised, or when a clever way of reducing the complexity is discovered. Ever since, the theoretical collisions were found for SHA-1 ([2005][2005_shattered], [2011][2011_shattered]), it has been depricated. However, being one of the major hashing algorithms, it is still used in many legacy systems including up to [10% of credit card payment systems][SHA1_creditcard]. 
@@ -60,7 +60,7 @@ Once the private key is derives, it can be misused impersonate of a legitimate o
 ---
 
 
-## Related to governments
+## Nation-state got pwned
 
 **1. Wikileaks [CIA Vault 7][vault7]:** Wikileaks published a trove of more than 8,761 documents that are claimed to be from the US Central Intelligence Agency (CIA), which is possibly the largest intelligence publication in history. These leaked documents provide details about activities and capabilities of CIA regarding malwares targetted for phones(iPhone, Android) and smart TVs, operating systems (Windows, OSx, Linux) on PCs and routers, and <span data-balloon-length="large" data-balloon="A software vulnerability that is unknown to those who would be interested in mitigating the vulnerability (including the vendor of the target software). Until the vulnerability is mitigated, hackers can exploit it to adversely affect computer programs, data or a network." data-balloon-pos="up">zero-day<sup><i class="fa fa-wikipedia-w" aria-hidden="true"></i></sup></span> bugs for iOS and Android. Furthermore, these leaks reveal a framework (dubbed by Wikileaks as **Marble**) which allegedly assists the CIA to write customised malwares that disguises their authorship, making it difficult for forensic investigators and anti-virus companies from attributing these malwares to the CIA. In addition to that it uncovers the techniques used by CIA to gain **persistant access** on Apple devices. 
 
@@ -85,12 +85,12 @@ Whether or not Wikileaks dumping emails on public domains [passes Public Interes
 
 <i class="fa fa-book" aria-hidden="true"></i> [Wikileaks dump][macron_hack] and [article][macron_hack_wired] by Wired.
 
+<i class="fa fa-gift fa-4x fa-pull-left fa-border" aria-hidden="true"></i> Citizen Lab's report called [**Tainted Leaks** - Disinformation and Phishing With a Russian Nexus][tainted_links] on an extensive phishing and disinformation campaign. This research uncovers Russian-led large phishing operation, with over 200 unique targets spanning 39 countries.
 
-<i class="fa fa-gift fa-4x fa-pull-left fa-border" aria-hidden="true"></i> Another disaster where [**198 million voters got exposed**][voters_exposed] from a [misconfigured storage server][server_misconf]. Interestingly, they shed some light on [**(big)data-driven election campaigns**][bdd_campaign].
 
 ---
 
-## Related to corporates
+## Corporates got hit
 
 **1. [Cloudbleed][cb_incident] - Leak in the memory:** Cloudfare, Inc.<span data-balloon-length="large" data-balloon="A U.S. company that provides a content delivery network, DDoS mitigation, Internet security services and distributed domain name server services, sitting between the visitor and the Cloudflare user's hosting provider, acting as a reverse proxy for websites." data-balloon-pos="up"><sup><i class="fa fa-wikipedia-w" aria-hidden="true"></i></sup></span> provides different kinds of service to companies like Uber, OK Cupid, and Fitbit, who transport senstive user information (including Personally Identifiable Information) via Cloudfare. In Feb 2017, *Tavis Ormandy* - a security researcher from Project Zero team, noticed a serious issue in Cloudfare's proxy servers which was spilling sensitive data belonging to arbitary users of companies (including Uber, Ok Cupid and Fitbit) in spite the data being protected by HTTPS.
 
@@ -110,55 +110,35 @@ This blunder was due to [failure of Equifax to patch][struts_response] an earlie
 
 ---
 
-**3. [Cellebrite hack][cb1] - (bad) Hackers got hacked:** 
-
-- [celebrite1][cb1] and [celebrite2][cb2]
- 
-
-
+**3. [Cellebrite hack][cb1] - (bad) Hackers got hacked:** In January 2017, a hacker [reported][cb1] Mother Board with 900GB worth of data related to Cellebrite, which included Android, Blackberry and iOS [cracking tools][cb2]. Cellebrite is one of the most popular mobile phone hacking companies, known for their flagship product called **Universal Forensic Extraction Device (UFED)** which can extract data (e.g. SMS messages, emails) from mobile phones. As a surveillance tech company, Cellebrite offers service to wide range of organizations including [law enforcement agencies][mb_police], [repressed regimes][mb_regime] (of Russia, the United Arab Emirates, and Turkey) as well as the [banks][mb_bank].
 
 <i class="fa fa-book" aria-hidden="true"></i>  [**Phone Crackers**][mb_series] series by *Joseph Cox*, Motherboard .
 
+<i class="fa fa-gift fa-3x fa-pull-left fa-border" aria-hidden="true"></i> Another disaster where [**198 million voters got exposed**][voters_exposed] from a [misconfigured storage server][server_misconf]. Interestingly, they shed some light on [**(big)data-driven election campaigns**][bdd_campaign].
 
-[cb1]: https://motherboard.vice.com/en_us/article/3daywj/hacker-steals-900-gb-of-cellebrite-data 
-[cb2]:https://motherboard.vice.com/en_us/article/5355ga/hacker-dumps-ios-cracking-tools-allegedly-stolen-from-cellebrite
-[mb_series]:[https://motherboard.vice.com/en_us/topic/phone-crackers]
-[mb_bank]: https://motherboard.vice.com/en_us/article/ezp9kp/banks-use-cellebrite-phone-cracking-tech-too
-[mb_regime]: https://motherboard.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests
-[mb_police]: https://motherboard.vice.com/en_us/article/aekqkj/us-state-police-have-spent-millions-on-israeli-phone-cracking-tech-cellebrite
+
 
 ---
 
- - Others such as Virgin America, Deloitte, as usual Yahoo, Verifone
+<!--  - Others such as Virgin America, Deloitte, as usual Yahoo, Verifone -->
 
-
-
-
-
-
-
-## Malwares
- - [Value of security hygine][msr_security_hygine]
+## Malwares (To-do)
+<!--  - [Value of security hygine][msr_security_hygine]
  - WannaCry
  - Petya/NotPetya/Nyetya/Goldeneye
- - BadRabbit
+ - BadRabbit -->
 
- [msr_security_hygine]: https://blogs.technet.microsoft.com/mmpc/2017/09/06/ransomware-1h-2017-review-global-outbreaks-reinforce-the-value-of-security-hygiene/
+<!--  [msr_security_hygine]: https://blogs.technet.microsoft.com/mmpc/2017/09/06/ransomware-1h-2017-review-global-outbreaks-reinforce-the-value-of-security-hygiene/ -->
 
 ---
 
 ## <i class="fa fa-bookmark" aria-hidden="true"></i> Recommended reading
+
  - [The Biggest Cybersecurity Disasters of 2017 So Far][wired_2017] - **Wired**
  - [2017's biggest hacks, leaks, and data breaches][ZDNet_2017] - **ZDNet**
  - [Nation-State Hacking: 2017 in Review][EFF_2017] and [other articles][EFF_Series_2017] from the same series - **EFF**
 
-
- 
-
-
-
-
-
+<!-- Referenes -->
 <!---2016 recap -->
 
 [heist]: https://www.blackhat.com/docs/us-16/materials/us-16-VanGoethem-HEIST-HTTP-Encrypted-Information-Can-Be-Stolen-Through-TCP-Windows-wp.pdf
@@ -240,6 +220,9 @@ This blunder was due to [failure of Equifax to patch][struts_response] an earlie
 [viz_metadata]:https://labs.rs/en/metadata/
 
 
+[tainted_links]: https://citizenlab.ca/2017/05/tainted-leaks-disinformation-phish/
+
+
 <!-- ShadowBrokers -->
 
 [Shad_bro_16]:https://www.theguardian.com/technology/2016/aug/16/shadow-brokers-hack-auction-nsa-malware-equation-group
@@ -269,6 +252,15 @@ This blunder was due to [failure of Equifax to patch][struts_response] an earlie
 [eq_sec]:https://www.equifaxsecurity2017.com/
 [struts_response]: https://blogs.apache.org/foundation/entry/media-alert-the-apache-software
 [struts_bug]: http://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html
+
+<!-- cellebrite -->
+
+[cb1]: https://motherboard.vice.com/en_us/article/3daywj/hacker-steals-900-gb-of-cellebrite-data 
+[cb2]:https://motherboard.vice.com/en_us/article/5355ga/hacker-dumps-ios-cracking-tools-allegedly-stolen-from-cellebrite
+[mb_series]:[https://motherboard.vice.com/en_us/topic/phone-crackers]
+[mb_bank]: https://motherboard.vice.com/en_us/article/ezp9kp/banks-use-cellebrite-phone-cracking-tech-too
+[mb_regime]: https://motherboard.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests
+[mb_police]: https://motherboard.vice.com/en_us/article/aekqkj/us-state-police-have-spent-millions-on-israeli-phone-cracking-tech-cellebrite
 
 
 
