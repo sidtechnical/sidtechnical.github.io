@@ -129,7 +129,7 @@ Since malwares catch easy attention of everyone, especially, when it is linked w
 
 [`Petya/ NotPetya/ Nyetya/ Goldeneye`][Petya] as well as [`Bad Rabbit`][BadRabbit] also became equally popular malwares/ransomwares of the year 2017. 
 
-<i class="fa fa-book" aria-hidden="true"></i> "Ransomeware 1H 2017" - [review by Microsoft][msr_security_hygine] and [article][gaurdian_rsmware] by The Guardian
+<i class="fa fa-book" aria-hidden="true"></i> "Ransomeware 1H 2017" - [review by Microsoft][msr_security_hygine] and [article][gaurdian_rsmware] by The Guardian.
 
 ---
 
