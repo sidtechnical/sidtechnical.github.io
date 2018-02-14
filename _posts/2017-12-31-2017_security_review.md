@@ -122,14 +122,14 @@ This blunder was due to [failure of Equifax to patch][struts_response] an earlie
 
 <!--  - Others such as Virgin America, Deloitte, as usual Yahoo, Verifone -->
 
-## Malwares (To-do)
+## Malwares
 <!--  - [Value of security hygine][msr_security_hygine]-->
 
- - WannaCry
- - Petya/NotPetya/Nyetya/Goldeneye
- - BadRabbit 
- 
-<!--  [msr_security_hygine]: https://blogs.technet.microsoft.com/mmpc/2017/09/06/ransomware-1h-2017-review-global-outbreaks-reinforce-the-value-of-security-hygiene/ -->
+Since malwares catch easy attention of everyone, especially, when it is linked with Bitcoins. [`WannaCry`][wannacry] is one such malware, which is popularly dubbed as ransomware. This ransomeware encrypts the data on computers running the specific versions of Microsoft Windows OS, and  demands ransom payments in the Bitcoin to decrypt it. Initially it was blamed that this massive cyber attack was due to the tools released by *Shadow Broakers*. However, the blame was eventually shifted towards [North Korea][wc_nk]. 
+
+[`Petya/ NotPetya/ Nyetya/ Goldeneye`][Petya] as well as [`Bad Rabbit`][BadRabbit] also became equally popular malwares/ransomwares of the year 2017. 
+
+<i class="fa fa-book" aria-hidden="true"></i> "Ransomeware 1H 2017" - [review by Microsoft][msr_security_hygine] and [article][gaurdian_rsmware] by The Guardian
 
 ---
 
@@ -262,6 +262,16 @@ This blunder was due to [failure of Equifax to patch][struts_response] an earlie
 [mb_bank]: https://motherboard.vice.com/en_us/article/ezp9kp/banks-use-cellebrite-phone-cracking-tech-too
 [mb_regime]: https://motherboard.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests
 [mb_police]: https://motherboard.vice.com/en_us/article/aekqkj/us-state-police-have-spent-millions-on-israeli-phone-cracking-tech-cellebrite
+
+<!-- Malwares -->
+
+ [wannacry]: https://en.wikipedia.org/wiki/WannaCry_ransomware_attack
+ [wc_nk]: https://www.reuters.com/article/us-usa-cyber-northkorea/u-s-blames-north-korea-for-wannacry-cyber-attack-idUSKBN1ED00Q
+ [Petya]: https://www.csoonline.com/article/3233210/ransomware/petya-ransomware-and-notpetya-malware-what-you-need-to-know-now.html
+ [BadRabbit]: https://www.wired.co.uk/article/bad-rabbit-ransomware-flash-explained
+ 
+ [msr_security_hygine]: https://blogs.technet.microsoft.com/mmpc/2017/09/06/ransomware-1h-2017-review-global-outbreaks-reinforce-the-value-of-security-hygiene/
+ [gaurdian_rsmware]:https://www.theguardian.com/technology/2017/dec/30/wannacry-petya-notpetya-ransomware
 
 
 
