@@ -9,11 +9,11 @@ published: true
 ---
 
 
-I was one of the [student PC members][studentpc] for the ** 39th IEEE Symposium on Security and Privacy ** (IEEE S&P Oakland). Since this was my first review experience for a reputed academic conference, I thought of writing down my experience for my own (as well as others) future reference.
+I was one of the [student PC members][studentpc] for the **39th IEEE Symposium on Security and Privacy** (IEEE S&P Oakland). Since this was my first review experience for a reputed academic conference, I thought of writing down my experience for my own (as well as others) future reference.
 
 "Student PC" or shadow PC mainly consists of doctoral students and post-docs to mimick the actual review procedures of a typical academic conference by shadowing the actual program commitee (comprising of professors and other industry professionals). It is becoming an official part of good conferenes, for example, earlier with[Privacy Enhancing Technologies Symposium (PETS)][PETS] and [The Network and Distributed System Security Symposium (NDSS)][ndss], and starting from last year, also with IEEE S&P Oakland. It is mainly for the early-stage research students to gain first-hand experince of being part of a review committee.
 
-This year's student PC was headed by [** Prof. Thorsten Holz **][thorsten], Ruhr-University Bochum, who did a great job of introducing all of the student PC members to the review process and guided all of us throughout different stages of the process.
+This year's student PC was headed by [**Prof. Thorsten Holz**][thorsten], Ruhr-University Bochum, who did a great job of introducing all of the student PC members to the review process and guided all of us throughout different stages of the process.
 
 The whole review process was divided into following parts:
 1. Pre-review tele-meeting.
