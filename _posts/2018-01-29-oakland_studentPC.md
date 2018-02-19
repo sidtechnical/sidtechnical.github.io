@@ -21,16 +21,16 @@ The whole review process was divided into following parts:
 3. Actual review of the papers assigned, followed by online discussion.
 4. In-person meeting with all the other student PC members in the Google office, New York.
 
-## 1. Pre-review tele-meeting
+### 1. Pre-review tele-meeting
 
-This tele-meeting included a nice overview of future steps that the student PC members are expected to do. Prof. Thorsten gave a brief overview ([his presentation slides][instructions]) of all the things that we should be aware of. First and foremost step was to register ourselves as a reviewer to the submission system (i.e. ** HOTCRP**). While most of were familiar with such submission systems (of course, as authors), this was the first time we all got a chance to sneak behind the scenes process.
+This tele-meeting included a nice overview of future steps that the student PC members are expected to do. Prof. Thorsten gave a brief overview ([his presentation slides][instructions]) of all the things that we should be aware of. First and foremost step was to register ourselves as a reviewer to the submission system (i.e. **HOTCRP**). While most of were familiar with such submission systems (of course, as authors), this was the first time we all got a chance to sneak behind the scenes process.
 
 
-## 2. Paper bidding and assignment
+### 2. Paper bidding and assignment
 
-## 3. Reviews and discusson
+### 3. Reviews and discusson
 
-## 4. Final in-person meeting
+### 4. Final in-person meeting
 
 [studentpc]: https://www.ieee-security.org/TC/SP2018/studentpc.html
 [PETS]: https://petsymposium.org/
