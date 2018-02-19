@@ -4,7 +4,7 @@ title:  'IEEE Security & Privacy Student PC experience'
 categories: 
   - blog
 tags:
-  - event_experiences
+  - experience
 published: true
 ---
 
