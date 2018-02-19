@@ -31,3 +31,9 @@ This tele-meeting included a nice overview of future steps that the student PC m
 ## 3. Reviews and discusson
 
 ## 4. Final in-person meeting
+
+[studentpc]: https://www.ieee-security.org/TC/SP2018/studentpc.html
+[PETS]: https://petsymposium.org/
+[NDSS]: https://www.internetsociety.org/events/ndss/
+[thorsten]: http://www.syssec.rub.de/chair/staff/tho/
+[instructions]: https://www.dropbox.com/s/x2cw90zgk4ymkq7/studentpc18-prereview.pdf?dl=0
