@@ -5,7 +5,7 @@ categories:
   - blog
 tags:
   - reflections
-published: true
+published: false
 ---
 
 I was one of the [student PC members][studentpc] for the **39th IEEE Symposium on Security and Privacy** (IEEE S&P Oakland). Since this was my first review experience for a reputed academic conference, I thought of writing down my experience for my own (as well as others) future reference.
@@ -29,7 +29,7 @@ Here are some pointers on *writing a good review*: [Thoughts on Reviewing][r1], 
 
 ### 2. Paper bidding and assignment
 
-We were then asked to bid **for or against** the papers that each of us wanted to review. Depending on the review/submmission system, positive bid score means the reviewer is interested to review the paper and the negative score to show that reviewer is not interested. Typically, these scores range from -20 to +20. The conflicts (e.g. reviewer is a co-author, previous co-worker/collaborator in the past two years, primary advisor no-matter how long ago, etc.) are marked with -100.
+We were then asked to bid **for or against** the papers that each of us wanted to review. Depending on the review/submmission system, positive bid score means the reviewer is interested to review the paper and the negative score to show that reviewer is not interested. Typically, these scores range from -20 to +20. The conflicts (e.g. reviewer is a co-author, previous co-worker/collaborator in the past two years, primary advisor no-matter how long ago, etc.) are marked with **-100**.
 
 If the reviewers bid, their chances that they are asssigned to review the paper of their choice is high. Lazy reviewers who fail to bid for or against will get random papers (papers that are disposed by other reviwers) are assigned by the PC chair. 
 
