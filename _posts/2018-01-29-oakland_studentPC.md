@@ -55,7 +55,7 @@ Last but not the least part of the review process was the in-person meeting to v
     <em>Me @ Google NY office</em>
 </p>
 
-Most pf the student PC members (including the student PC chair - Prof. Thorsten) were gathered in a room for the round-table discussion. Each paper had one discussion lead (who is one of the reviewers), whose task was to summarize the paper for the audience, followed by collecting votes from other reviewers to decide whether to accept or reject/revise/sheperd accept the paper. In case of conflicts, the person who has the conflict has to leave the room until the discussion is over. 
+Most pf the student PC members (including the student PC chair - Prof. Thorsten) were gathered in a room for the round-table discussion. Each paper had one discussion lead (who is one of the reviewers), whose task was to summarize the paper for the audience, followed by collecting votes from other reviewers to decide whether to accept or reject/revise/shepherd accept the paper. In case of conflicts, the person who has the conflict has to leave the room until the discussion is over. 
 
 This indeed was a tedious and never-ending task. It took the whole day to finish all the papers (i.e. ~80) which were to be reviewed by the student PC. 
 
@@ -92,7 +92,7 @@ After evertything was reviewed, Prof. Thorsten disclosed the comparison of our e
         </tr>
         <tr>
             <td colspan="1" rowspan="1">
-                Sheperd accept
+                Shepherd accept
             </td>
             <td colspan="1" rowspan="1">
             	4
