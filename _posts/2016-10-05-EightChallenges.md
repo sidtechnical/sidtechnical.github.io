@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Eight challenges of opening the web.
+title:  Eight challenges of opening the web
 categories: 
   - blog
 tags:
